@@ -1669,3 +1669,10 @@ figure.dotted-bg {
       .site-footer .social li a:hover {
         background: #36a1ff;
         color: #ffffff; }
+
+        /* CSS */
+.custom-class {
+  background-color: black;
+  color: white;
+}
+
