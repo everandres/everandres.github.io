@@ -1676,3 +1676,9 @@ figure.dotted-bg {
   color: white;
 }
 
+figure.mb-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
