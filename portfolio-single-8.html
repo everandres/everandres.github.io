@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Ever Andrés Salazar Mercado">
+  <link rel="shortcut icon" href="favicon.png">
+  <meta name="description" content="Open dataset and animated map of the routes of all 48 teams in the 2026 World Cup.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/additions.css">
+
+  <title>2026 World Cup travel routes · Ever Salazar</title>
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="100">
+
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close">
+        <span class="icofont-close js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+  <nav class="site-nav dark mb-5 site-navbar-target">
+    <div class="container">
+      <div class="site-navigation">
+        <a href="index.html" class="logo m-0">Ever Andrés<span class="text-primary">.</span></a>
+        <ul class="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
+          <li><a href="index.html#home-section" class="nav-link">Home</a></li>
+          <li><a href="index.html#portfolio-section" class="nav-link">Work</a></li>
+          <li><a href="index.html#about-section" class="nav-link">About</a></li>
+          <li><a href="index.html#contact-section" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block" data-toggle="collapse" data-target="#main-navbar">
+          <span></span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="untree_co-section untree_co-section-4 pb-0" id="portfolio-section">
+    <div class="container">
+      <div class="portfolio-single-wrap unslate_co--section" id="portfolio-single-section">
+        <div class="portfolio-single-inner">
+          <h2 class="heading-portfolio-single-h2 text-black">2026 World Cup travel routes</h2>
+
+          <div class="row justify-content-between mb-5">
+            <div class="col-12 mb-4">
+              <div class="owl-carousel single-slider">
+                <figure class="mb-4">
+                  <img src="media/mundial-1.jpg" alt="The tournament replayed day by day, with a live ranking of kilometres travelled." class="img-fluid">
+                  <figcaption>The tournament replayed day by day, with a live ranking of kilometres travelled.</figcaption>
+                </figure>
+                <figure class="mb-4">
+                  <img src="media/mundial-2.jpg" alt="Opening day: 48 teams at their base camps." class="img-fluid">
+                  <figcaption>Opening day: 48 teams at their base camps.</figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <div class="col-12 my-5">
+              <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                  <div class="detail-v1">
+                    <span class="detail-label">Dates</span>
+                    <span class="detail-val">June &ndash; July 2026</span>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                  <div class="detail-v1">
+                    <span class="detail-label">Role</span>
+                    <span class="detail-val">Dataset, design and code</span>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                  <div class="detail-v1">
+                    <span class="detail-label">Stack</span>
+                    <span class="detail-val">Python, Next.js, deck.gl, MapLibre</span>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                  <div class="detail-v1">
+                    <span class="detail-label">Visit</span>
+                    <span class="detail-val"><a href="https://everandres.github.io/mundial-2026-recorridos/">Live map</a> &middot; <a href="https://github.com/everandres/mundial-2026-recorridos">Repository</a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <p>An open, reproducible dataset of the routes travelled by the 48 teams of the 2026 World Cup across its 104 matches, from their base camps to the city where they were knocked out.</p>
+              <p>Each leg follows FIFA's logistics: in the group stage teams fly from their base camp to each venue and back; from the round of 32 on they travel city to city.</p>
+            </div>
+            <div class="col-md-6">
+              <p>Distances are geodesic (haversine), with per-leg and cumulative metrics for every team: total kilometres, longest and shortest leg, cities and countries visited.</p>
+              <p>The site replays the tournament day by day on an animated deck.gl and MapLibre map.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="widget">
+            <h3>Connect</h3>
+            <ul class="list-unstyled social">
+              <li><a href="https://www.linkedin.com/in/ever-salazar/" aria-label="LinkedIn"><span class="icon-linkedin"></span></a></li>
+              <li><a href="https://github.com/everandres" aria-label="GitHub"><span class="icon-github"></span></a></li>
+              <li><a href="mailto:andressalmercado@gmail.com" aria-label="Email"><span class="icon-envelope"></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 text-center">
+          <p class="mb-0">&copy; 2026 Ever Andrés Salazar Mercado &mdash; Template &ldquo;Minimal&rdquo; by <a href="https://untree.co">Untree.co</a> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/wave-animate.js"></script>
+  <script src="js/circle-progress.js"></script>
+  <script src="js/imagesloaded.pkgd.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/TweenMax.min.js"></script>
+  <script src="js/ScrollMagic.min.js"></script>
+  <script src="js/scrollmagic.animation.gsap.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

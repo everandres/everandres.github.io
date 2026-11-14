@@ -16,16 +16,16 @@
   <link rel="shortcut icon" href="favicon.png">
   
   <!-- Descripción del sitio -->
-  <meta name="description" content="Ever Andrés Salazar Mercado is an Environmental Engineer and Data Analyst specializing in GIS. He has experience teaching Python for GIS, SQL, and JavaScript. Currently working in meteorology at IDEAM in Colombia." />
+  <meta name="description" content="Ever Andrés Salazar Mercado, geospatial and climate data engineer in Bogotá, Colombia. Lightning, weather forecast and early-warning data at Keraunos; formerly at IDEAM's Forecasting and Alerts Office." />
   
   <!-- Palabras clave para SEO -->
-  <meta name="keywords" content="Ever Andrés Salazar Mercado, Environmental Engineer, GIS, Data Analyst, Python, Teaching, SQL, JavaScript, Meteorology, IDEAM, Colombia" />
+  <meta name="keywords" content="Ever Andrés Salazar Mercado, geospatial data engineer, climate data, weather data, lightning, early warning, GIS, PostGIS, Zarr, Kafka, Bogotá, Colombia" />
   
   <!-- Otras meta tags relevantes -->
-  <meta name="og:title" content="Ever Andrés Salazar Mercado - Environmental Engineer and GIS Data Analyst">
-  <meta name="og:description" content="Ever Andrés Salazar Mercado is an Environmental Engineer and Data Analyst specializing in GIS. He has experience teaching Python for GIS, SQL, and JavaScript. Currently working in meteorology at IDEAM in Colombia.">
-  <meta name="og:image" content="https://media.licdn.com/dms/image/D4D03AQHPm4ORU2AEuw/profile-displayphoto-shrink_800_800/0/1678546678388?e=1699488000&v=beta&t=Fn5ivt47OxMFdB30hXjJbZD5jC-0YK7jNRAZA97ESaY">
-  <meta name="og:url" content="https://www.linkedin.com/feed/">
+  <meta property="og:title" content="Ever Andrés Salazar Mercado, geospatial and climate data engineer">
+  <meta property="og:description" content="Ever Andrés Salazar Mercado, geospatial and climate data engineer in Bogotá, Colombia. Lightning, weather forecast and early-warning data at Keraunos; formerly at IDEAM's Forecasting and Alerts Office.">
+  <meta property="og:image" content="https://everandres.github.io/media/tile-keraunos.jpg">
+  <meta property="og:url" content="https://everandres.github.io/">
   <meta name="twitter:card" content="summary_large_image">
   
 
@@ -41,8 +41,9 @@
   <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
   <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/additions.css">
 
-  <title>Ever Salazar</title>
+  <title>Ever Salazar, geospatial and climate data engineer</title>
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="100">
@@ -52,7 +53,6 @@
       <div class="lines"></div>
     </div>
   </div>
-  <!-- END lines -->
 
   <div class="site-mobile-menu site-navbar-target">
     <div class="site-mobile-menu-header">
@@ -62,99 +62,180 @@
     </div>
     <div class="site-mobile-menu-body"></div>
   </div>
-  
+
   <nav class="site-nav dark mb-5 site-navbar-target">
     <div class="container">
       <div class="site-navigation">
         <a href="index.html" class="logo m-0">Ever Andrés<span class="text-primary">.</span></a>
-
         <ul class="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
           <li><a href="#home-section" class="nav-link active">Home</a></li>
-          <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
-          <li class="has-children">
-          </li>
-          <a href="#services-section" class="nav-link">Services</a></li>
-
-          <li><a href="#contact-section" class="nav-link">Contact me</a></li>
+          <li><a href="#portfolio-section" class="nav-link">Work</a></li>
+          <li><a href="#about-section" class="nav-link">About</a></li>
+          <li><a href="#contact-section" class="nav-link">Contact</a></li>
         </ul>
-
         <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block" data-toggle="collapse" data-target="#main-navbar">
           <span></span>
         </a>
-
       </div>
     </div>
   </nav>
 
-
-
   <div class="untree_co-section pb-0" id="home-section">
     <div class="container">
       <div class="row justify-content-center text-center">
-        <div class="col-md-7">
+        <div class="col-md-8">
           <h1 class="heading gsap-reveal-hero mb-3"><strong>See my<span class="text-primary">.</span> Journey</strong></h1>
-          <h2 class="subheading gsap-reveal-hero mb-4">
-            A simple and concise space to share with you my journey and <strong>passion</strong> for the world of GIS and data analysis. Feel free to explore
+          <h2 class="subheading gsap-reveal-hero mb-3">
+            I'm a <strong>geospatial and climate data engineer</strong> from Bogot&aacute;. I build the pipelines, maps and alerts that turn lightning, weather and satellite data into something people can act on.
           </h2>
+          <p class="lede-meta gsap-reveal-hero">Keraunos &middot; ex-IDEAM &middot; 6+ years with spatial data</p>
         </div>
       </div>
-      
     </div>
   </div>
 
-
-  <div class="untree_co-section untree_co-section-4 pb-0"  id="portfolio-section">
+  <div class="untree_co-section untree_co-section-4 pb-0" id="portfolio-section">
     <div class="container">
 
-
-      <div class="relative"><div class="loader-portfolio-wrap"><div class="loader-portfolio"></div></div> </div>
+      <div class="relative"><div class="loader-portfolio-wrap"><div class="loader-portfolio"></div></div></div>
       <div id="portfolio-single-holder"></div>
 
       <div class="portfolio-wrapper">
-
         <div id="posts" class="row">
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+          <div class="item col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-6.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="6">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Lightning &amp; forecast data</h3>
+                  <p>Keraunos, 2024&ndash;now</p>
+                </div>
+              </div>
+              <img src="media/tile-keraunos.jpg" class="lazyload img-fluid" alt="Lightning &amp; forecast data" />
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-7.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="7">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>El Ni&ntilde;o breathes over Colombia</h3>
+                  <p>data storytelling</p>
+                </div>
+              </div>
+              <img src="media/tile-oni.jpg" class="lazyload img-fluid" alt="El Ni&ntilde;o breathes over Colombia" />
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-8.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="8">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>2026 World Cup routes</h3>
+                  <p>open dataset, map</p>
+                </div>
+              </div>
+              <img src="media/tile-mundial.jpg" class="lazyload img-fluid" alt="2026 World Cup routes" />
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-5.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="5">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Forecasts &amp; alerts, IDEAM</h3>
+                  <p>2021&ndash;2024</p>
+                </div>
+              </div>
+              <img src="images/img_555.jpg" class="lazyload img-fluid" alt="Forecasts &amp; alerts, IDEAM" />
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-9.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="9">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Exploded axonometry</h3>
+                  <p>cartography, WebGL</p>
+                </div>
+              </div>
+              <img src="media/tile-axonometria.jpg" class="lazyload img-fluid" alt="Exploded axonometry" />
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-10.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="10">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Cartolens</h3>
+                  <p>3D relief, three.js</p>
+                </div>
+              </div>
+              <img src="media/tile-cartolens.jpg" class="lazyload img-fluid" alt="Cartolens" />
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-11.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="11">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Bogot&aacute;&rsquo;s urban trees</h3>
+                  <p>1.47 million trees</p>
+                </div>
+              </div>
+              <img src="media/tile-arbolado.jpg" class="lazyload img-fluid" alt="Bogot&aacute;&rsquo;s urban trees" />
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-12.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="12">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Earthquake volunteer map</h3>
+                  <p>live dashboard</p>
+                </div>
+              </div>
+              <img src="media/tile-voluntariado.jpg" class="lazyload img-fluid" alt="Earthquake volunteer map" />
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
             <a href="portfolio-single-1.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
               <div class="overlay">
                 <span class="wrap-icon icon-link2"></span>
                 <div class="portfolio-item-content">
                   <h3>GIS Research</h3>
-                  <p>programming, mapping</p>
+                  <p>graph theory, thesis</p>
                 </div>
               </div>
-              <img src="images/img_111.jpg" class="lazyload  img-fluid" alt="Images" />
+              <img src="images/img_111.jpg" class="lazyload img-fluid" alt="GIS Research" />
             </a>
           </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+          <div class="item col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
             <a href="portfolio-single-2.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="2">
               <div class="overlay">
                 <span class="wrap-icon icon-link2"></span>
                 <div class="portfolio-item-content">
                   <h3>Data Analysis Teaching</h3>
-                  <p>GIS, Python</p>
+                  <p>Orbis Geoscripting</p>
                 </div>
               </div>
-              <img src="images/img_22.jpg" class="lazyload  img-fluid" alt="Images" />
+              <img src="images/img_22.jpg" class="lazyload img-fluid" alt="Data Analysis Teaching" />
             </a>
           </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+          <div class="item col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
             <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
               <div class="overlay">
                 <span class="wrap-icon icon-link2"></span>
                 <div class="portfolio-item-content">
                   <h3>GIS Fashion</h3>
-                  <p>web, branding</p>
+                  <p>Orbis Shop</p>
                 </div>
               </div>
-              <img src="images/img_44.jpg" class="lazyload  img-fluid" alt="Images" />
+              <img src="images/img_44.jpg" class="lazyload img-fluid" alt="GIS Fashion" />
             </a>
           </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-4.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+          <div class="item col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-4.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="4">
               <div class="overlay">
                 <span class="wrap-icon icon-link2"></span>
                 <div class="portfolio-item-content">
@@ -162,185 +243,152 @@
                   <p>mapping, visualization</p>
                 </div>
               </div>
-              <img src="images/gal_22.jpg" class="lazyload  img-fluid" alt="Images" />
+              <img src="images/gal_22.jpg" class="lazyload img-fluid" alt="Collaborative Projects" />
             </a>
           </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-5.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Meteorology, Dashboards</h3>
-                  <p>gis, python</p>
-                </div>
-              </div>
-              <img src="images/img_555.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-
+        </div>
       </div>
     </div>
+  </div>
 
-
-    <div class="untree_co-section pb-0" id="about-section">
-      <div class="container">
-        <div class="row justify-content-center mb-3">
-          <div class="col-lg-7 mx-auto text-center author-wrap">
-            <img src="images/personal.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
-            <h3 class="text-black h5 font-weight-bold mb-2 gsap-reveal-hero">Ever Andrés Salazar</h3>
-            <p class = "gsap-reveal-hero">Environmental engineer and data analyst</p>
-          </div>
+  <div class="untree_co-section pb-0" id="about-section">
+    <div class="container">
+      <div class="row justify-content-center mb-3">
+        <div class="col-lg-7 mx-auto text-center author-wrap">
+          <img src="images/personal.jpg" alt="Ever Andrés Salazar" class="img-fluid rounded-circle mb-3">
+          <h3 class="text-black h5 font-weight-bold mb-2 gsap-reveal-hero">Ever Andrés Salazar</h3>
+          <p class="gsap-reveal-hero">Environmental engineer, geospatial and climate data engineer</p>
         </div>
+      </div>
 
-        <div class="row justify-content-center">
-          <div class="col-lg-7">
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+          <p class="gsap-reveal-hero custom-class">I'm an Environmental Engineer who found my way into data engineering through maps. For more than six years I've worked with satellite, weather and spatial data, and I care about one thing above the rest: that every number can be traced back to where it came from.</p>
 
+          <p class="gsap-reveal-hero custom-class">Today I'm a Geospatial Data Engineer at Keraunos, a lightning-research and detection company, where I contribute to Predicthor, its real-time platform that relates lightning to asset monitoring and weather forecasts. Before that I spent three years at IDEAM's Forecasting and Alerts Office (OSPA), handling the hydrometeorological data behind Colombia's national early-warning system.</p>
 
-            <p class="gsap-reveal-hero custom-class">I'm an Environmental Engineer with a passion for data science and cartography, heavily focused on geospatial analysis. I have specialized in various tools such as Python, SQL, and JavaScript for data analysis and map visualization, using platforms like Matplotlib, Dash Plotly, Qgis, and ArcGIS. In addition to my technical skills, I have been recognized with awards such as Academic Excellence and Meritorious Thesis by Universidad Distrital Francisco José de Caldas, where I earned a GPA of 4.0/5.0.</p>
+          <p class="gsap-reveal-hero custom-class">I co-founded Orbis Geoscripting, a school where we taught programming for cartography to more than 150 professionals from ANLA, National Natural Parks and IDEAM. I graduated with academic honors and a Meritorious Thesis from Universidad Distrital Francisco José de Caldas (GPA 4.0/5.0), and in 2025 I was lead speaker at AtmosCol, presenting an early-warning system for lightning-related events that affect infrastructure. I'm also building Smirr, my own startup. More about it soon.</p>
 
-            <p class="gsap-reveal-hero custom-class">In my professional journey, I highlight my current role as a Data Analyst at IDEAM (Institute of Hidrology, Meteorology and Environmental Studies of Colombia), where I work on nationwide hydrometeorological prediction and alerts. Moreover, I was also the co-founder and former CEO of Orbis Geoscripting, an initiative that focused on teaching cartography-oriented programming languages. We trained over 150 students from various institutions across Colombia, offering courses ranging from Python and SQL to JavaScript related to cartographic processes.</p>
-            
-            <p class="gsap-reveal-hero custom-class">Beyond my technical skills, I possess soft skills such as decision-making, active listening, and analytical problem-solving. I firmly believe in teamwork and the integration of multiple disciplines to achieve a more comprehensive and effective approach in any project.</p>
-            
-            <p class="gsap-reveal-hero custom-class">When I am not immersed in maps and codes, my interests range from literature and the history of ancient Egypt to salsa and hip-hop music. I am also fascinated by fashion design and am an avid viewer of shows like Bojack Horseman. This diverse set of interests gives me a unique perspective that I incorporate into my professional and academic work.</p>
-            
+          <p class="gsap-reveal-hero custom-class">When I'm not immersed in maps and code, my interests range from literature (I published my first book of short stories in 2023) and the history of ancient Egypt to salsa and hip-hop. I'm also fascinated by fashion design, and I'm an avid viewer of shows like BoJack Horseman. That mix of interests shapes how I approach my work.</p>
 
+          <div class="row facts">
+            <div class="col-sm-4"><span class="detail-label">Data</span><span class="detail-val">ECMWF, GFS, WRF, GOES, LINET</span></div>
+            <div class="col-sm-4"><span class="detail-label">Engineering</span><span class="detail-val">Python, SQL/PostGIS, Kafka, Zarr</span></div>
+            <div class="col-sm-4"><span class="detail-label">Maps</span><span class="detail-val">MapLibre, deck.gl, QGIS, ArcGIS</span></div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-
-    <div class="untree_co-section pb-0" id="services-section">
-      <div class="container">
-        <div class="row mb-4">
-          <div class="col-lg-7 text-center mx-auto">
-            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Services</strong></h2>
-            <p class="gsap-reveal-hero">From extracting valuable insights through data analysis to customizing GIS solutions and teaching various programming languages, I offer a wide range of services tailored to meet your needs.</p>            <div class="wave gsap-reveal-hero" >
-              <svg>
-                <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
-              </svg>
-            </div>
+  <div class="untree_co-section pb-0" id="services-section">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-lg-7 text-center mx-auto">
+          <h2 class="section-heading gsap-reveal-hero mb-0"><strong>What I work on</strong></h2>
+          <div class="wave gsap-reveal-hero">
+            <svg>
+              <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
+            </svg>
           </div>
-        </div>
-
-        <div class="row">
-
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
-            <div class="service text-center">
-              <div class="gsap-reveal-hero mb-3">
-                <span class="icon-service"><img src="images/svg/service-icon-7.svg" alt="Image" class="img-fluid"></span>
-              </div>
-              <h3 class="gsap-reveal-hero">Data Analysis and Data Visualization</h3>
-              <p class="gsap-reveal-hero">I transform raw data into valuable insights through comprehensive analysis and visualization. My services help you understand complex data sets and guide your decision-making.</p>
-            </div>
-          </div>
-          
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
-            <div class="service text-center">
-              <div class="gsap-reveal-hero mb-3">
-                <span class="icon-service"><img src="images/svg/service-icon-6.svg" alt="Image" class="img-fluid"></span>
-              </div>
-              <h3 class="gsap-reveal-hero">Cartography and GIS</h3>
-              <p class="gsap-reveal-hero">From creating thematic maps to conducting advanced spatial analysis, I offer customized GIS solutions that enhance your understanding of spatial data and solve complex, location-oriented problems.</p>
-            </div>
-          </div>
-          
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
-            <div class="service text-center">
-              <div class="gsap-reveal-hero mb-3">
-                <span class="icon-service"><img src="images/svg/service-icon-1.svg" alt="Image" class="img-fluid"></span>
-              </div>
-              <h3 class="gsap-reveal-hero">Programming Languages Teaching</h3>
-              <p class="gsap-reveal-hero">Whether you're a complete beginner or looking to sharpen your skills, I offer courses in languages like Python, SQL, and Javascript to get you proficient in coding oriented to cartography.</p>
-            </div>
-          </div>
-          
-
         </div>
       </div>
-    </div>
 
-
- 
-    <div class="untree_co-section" id="contact-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-7 text-center mx-auto">
-            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Contact</strong></h2>
-            <p class="gsap-reveal-hero">andressalmercado@gmail.com</p>
-
-            <div class="wave gsap-reveal-hero" >
-              <svg>
-                <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
-              </svg>
+      <div class="row">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
+          <div class="service text-center">
+            <div class="gsap-reveal-hero mb-3">
+              <span class="icon-service"><img src="images/svg/service-icon-7.svg" alt="" class="img-fluid"></span>
             </div>
+            <h3 class="gsap-reveal-hero">Weather and climate data</h3>
+            <p class="gsap-reveal-hero">Pipelines for forecast models, satellites and station networks: from raw GRIB and NetCDF to analysis-ready Zarr datacubes, PostGIS and tile services, checked and validated along the way.</p>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6">
-            
-              <div class="row">
-                <div class="col-12 form-group">
-                  
-                </div>
-              </div>
-            </form>
-          </div>
-          <div class="col-lg-6">
-            <div id="map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7950.271174947648!2d-74.1015083057256!3d4.916972669619193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4079183fa5cb65%3A0x20097a44cc3abaea!2sTabio%2C%20Cundinamarca%2C%20Colombia!5e0!3m2!1sen!2sph!4v1693579197569!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
+          <div class="service text-center">
+            <div class="gsap-reveal-hero mb-3">
+              <span class="icon-service"><img src="images/svg/service-icon-6.svg" alt="" class="img-fluid"></span>
             </div>
+            <h3 class="gsap-reveal-hero">Cartography and GIS</h3>
+            <p class="gsap-reveal-hero">Spatial analysis, web maps and visual stories, from a census of 1.47 million city trees to 26 years of El Ni&ntilde;o over a whole country.</p>
+          </div>
+        </div>
+
+        <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
+          <div class="service text-center">
+            <div class="gsap-reveal-hero mb-3">
+              <span class="icon-service"><img src="images/svg/service-icon-1.svg" alt="" class="img-fluid"></span>
+            </div>
+            <h3 class="gsap-reveal-hero">Teaching</h3>
+            <p class="gsap-reveal-hero">Python, SQL and JavaScript for cartography, taught to more than 150 professionals. I still enjoy explaining technical methods in plain language.</p>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="site-footer">
-      <div class="container">
-
-              <h3>Connect</h3>
-              <ul class="list-unstyled social">
-                <li><a href="https://www.linkedin.com/in/ever-salazar/"><span class="icon-linkedin"></span></a></li>
-              </ul>
-
-            </div> <!-- /.widget -->
-          </div> <!-- /.col-lg-3 -->
-
-        </div> <!-- /.row -->
-
-
-
-
-
-
-        <div class="row mt-5">
-          <div class="col-12 text-center">
-            <!-- 
-              **==========
-              NOTE: 
-              Please don't remove this copyright link unless you buy the license here https://untree.co/license/  
-
-              **==========
-            -->
-            <p class="mb-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> <!-- License information: https://untree.co/license/ -->
-            </p>
+  <div class="untree_co-section" id="contact-section">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-lg-7 text-center mx-auto">
+          <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Contact</strong></h2>
+          <p class="gsap-reveal-hero">I'm open to new roles in climate, weather and geospatial data, remote or in Bogot&aacute;.</p>
+          <div class="wave gsap-reveal-hero">
+            <svg>
+              <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
+            </svg>
           </div>
         </div>
-      </div> <!-- /.container -->
-    </div> <!-- /.site-footer -->
+      </div>
 
-    <div id="overlayer"></div>
-    <div class="loader">
-      <div class="spinner-border" role="status">
-        <span class="sr-only">Loading...</span>
+      <div class="row">
+        <div class="col-lg-6 mb-5">
+          <ul class="contact-links">
+            <li><span class="detail-label">Email</span><a href="mailto:andressalmercado@gmail.com">andressalmercado@gmail.com</a></li>
+            <li><span class="detail-label">LinkedIn</span><a href="https://www.linkedin.com/in/ever-salazar/">linkedin.com/in/ever-salazar</a></li>
+            <li><span class="detail-label">GitHub</span><a href="https://github.com/everandres">github.com/everandres</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7950.271174947648!2d-74.1015083057256!3d4.916972669619193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4079183fa5cb65%3A0x20097a44cc3abaea!2sTabio%2C%20Cundinamarca%2C%20Colombia!5e0!3m2!1sen!2sph!4v1693579197569!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map"></iframe>
+          </div>
+        </div>
       </div>
     </div>
+  </div>
 
-    <script src="js/jquery-3.4.1.min.js"></script>
+  <div class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="widget">
+            <h3>Connect</h3>
+            <ul class="list-unstyled social">
+              <li><a href="https://www.linkedin.com/in/ever-salazar/" aria-label="LinkedIn"><span class="icon-linkedin"></span></a></li>
+              <li><a href="https://github.com/everandres" aria-label="GitHub"><span class="icon-github"></span></a></li>
+              <li><a href="mailto:andressalmercado@gmail.com" aria-label="Email"><span class="icon-envelope"></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 text-center">
+          <p class="mb-0">&copy; 2026 Ever Andrés Salazar Mercado &mdash; Template &ldquo;Minimal&rdquo; by <a href="https://untree.co">Untree.co</a> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>

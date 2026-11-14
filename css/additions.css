@@ -1,0 +1,68 @@
+/* 2026 additions on top of the Untree "Minimal" template.
+   Same palette (#0389ff), same fonts (Montserrat + PT Mono). */
+
+/* Videos inside the project carousels behave like the images */
+.single-slider video {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #f4f4f4; }
+
+/* Hero: one line of context under the template's big heading */
+#home-section .subheading strong {
+  color: #000; }
+
+#home-section .lede-meta {
+  font-family: "PT Mono", monospace;
+  font-size: 14px;
+  color: #6c757d;
+  letter-spacing: .02em; }
+
+/* About: the three facts that matter, in the template's detail style */
+.facts {
+  border-top: 1px solid #e9ecef;
+  margin-top: 32px;
+  padding-top: 24px; }
+  .facts .detail-label {
+    display: block;
+    font-family: "PT Mono", monospace;
+    font-size: 13px;
+    color: #6c757d; }
+  .facts .detail-val {
+    display: block;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 16px; }
+
+/* Contact links: the old page had an empty form */
+.contact-links {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .contact-links li {
+    padding: 12px 0;
+    border-bottom: 1px solid #e9ecef; }
+  .contact-links .detail-label {
+    display: block;
+    font-family: "PT Mono", monospace;
+    font-size: 13px;
+    color: #6c757d; }
+  .contact-links a {
+    font-weight: 700; }
+
+#map iframe {
+  width: 100%;
+  max-width: 100%; }
+
+@media (prefers-reduced-motion: reduce) {
+  .single-slider video {
+    animation: none; } }
+
+/* The template justifies short paragraphs; in narrow columns that opens rivers */
+.service p,
+.custom-class {
+  text-align: left; }
+
+.facts .detail-val {
+  word-break: normal;
+  white-space: normal; }

@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Ever Andrés Salazar Mercado">
+  <link rel="shortcut icon" href="favicon.png">
+  <meta name="description" content="A map taken apart like an architectural drawing: custom deck.gl shader layers over PMTiles.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/additions.css">
+
+  <title>Exploded axonometry of a map · Ever Salazar</title>
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="100">
+
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close">
+        <span class="icofont-close js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+  <nav class="site-nav dark mb-5 site-navbar-target">
+    <div class="container">
+      <div class="site-navigation">
+        <a href="index.html" class="logo m-0">Ever Andrés<span class="text-primary">.</span></a>
+        <ul class="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
+          <li><a href="index.html#home-section" class="nav-link">Home</a></li>
+          <li><a href="index.html#portfolio-section" class="nav-link">Work</a></li>
+          <li><a href="index.html#about-section" class="nav-link">About</a></li>
+          <li><a href="index.html#contact-section" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block" data-toggle="collapse" data-target="#main-navbar">
+          <span></span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="untree_co-section untree_co-section-4 pb-0" id="portfolio-section">
+    <div class="container">
+      <div class="portfolio-single-wrap unslate_co--section" id="portfolio-single-section">
+        <div class="portfolio-single-inner">
+          <h2 class="heading-portfolio-single-h2 text-black">Exploded axonometry of a map</h2>
+
+          <div class="row justify-content-between mb-5">
+            <div class="col-12 mb-4">
+              <div class="owl-carousel single-slider">
+                <figure class="mb-4">
+                  <video src="media/axonometria.mp4" class="img-fluid" autoplay muted loop playsinline preload="metadata" aria-label="From the globe to the exploded view."></video>
+                  <figcaption>From the globe to the exploded view.</figcaption>
+                </figure>
+                <figure class="mb-4">
+                  <img src="media/axonometria-1.jpg" alt="The stack rotated: place names, boundaries, urban fabric, roads and hydrography." class="img-fluid">
+                  <figcaption>The stack rotated: place names, boundaries, urban fabric, roads and hydrography.</figcaption>
+                </figure>
+                <figure class="mb-4">
+                  <img src="media/axonometria-2.jpg" alt="A system shown as a plan sheet, with scale bar, legend and corner coordinates." class="img-fluid">
+                  <figcaption>A system shown as a plan sheet, with scale bar, legend and corner coordinates.</figcaption>
+                </figure>
+                <figure class="mb-4">
+                  <img src="media/axonometria-3.jpg" alt="The collapsed stack: a conventional map, one ink on paper." class="img-fluid">
+                  <figcaption>The collapsed stack: a conventional map, one ink on paper.</figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <div class="col-12 my-5">
+              <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                  <div class="detail-v1">
+                    <span class="detail-label">Year</span>
+                    <span class="detail-val">2026</span>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                  <div class="detail-v1">
+                    <span class="detail-label">Role</span>
+                    <span class="detail-val">Concept, design and code</span>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                  <div class="detail-v1">
+                    <span class="detail-label">Stack</span>
+                    <span class="detail-val">Next.js, deck.gl custom shader layers, PMTiles, Web Workers</span>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                  <div class="detail-v1">
+                    <span class="detail-label">Visit</span>
+                    <span class="detail-val">Video above</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <p>Architecture portfolios explain buildings with exploded axonometric drawings. This project applies that language to a map. The object taken apart is not the territory but the map itself, separated into the systems that make it up (hydrography, roads, urban fabric, boundaries and place names) and stacked as parallel sheets that collapse back into a normal map.</p>
+              <p>You enter through the planet as a sphere. Zooming in morphs the projection from sphere to plane, and from zoom 10 a button opens the exploded view, where the stack can be orbited and pulled apart. Each system can also be shown as a plan sheet.</p>
+            </div>
+            <div class="col-md-6">
+              <p>There is no backend. Tiles come straight from a planet-wide PMTiles file over HTTP range requests, city blocks are derived on the fly in a web worker, and the morph between sphere and plane happens in custom deck.gl shader layers.</p>
+              <p>No color and no building extrusion: one ink on paper, with hierarchy coming only from line weight and opacity. The vertical axis means &ldquo;belongs to this layer&rdquo; and nothing else.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="widget">
+            <h3>Connect</h3>
+            <ul class="list-unstyled social">
+              <li><a href="https://www.linkedin.com/in/ever-salazar/" aria-label="LinkedIn"><span class="icon-linkedin"></span></a></li>
+              <li><a href="https://github.com/everandres" aria-label="GitHub"><span class="icon-github"></span></a></li>
+              <li><a href="mailto:andressalmercado@gmail.com" aria-label="Email"><span class="icon-envelope"></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 text-center">
+          <p class="mb-0">&copy; 2026 Ever Andrés Salazar Mercado &mdash; Template &ldquo;Minimal&rdquo; by <a href="https://untree.co">Untree.co</a> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/wave-animate.js"></script>
+  <script src="js/circle-progress.js"></script>
+  <script src="js/imagesloaded.pkgd.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/TweenMax.min.js"></script>
+  <script src="js/ScrollMagic.min.js"></script>
+  <script src="js/scrollmagic.animation.gsap.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

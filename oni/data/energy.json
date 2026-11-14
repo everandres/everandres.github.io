@@ -1,0 +1,1898 @@
+[
+  {
+    "date": "2000-01-01",
+    "hydro_contribution_pct": 109.17,
+    "reservoir_level_pct": 144.88,
+    "spot_price_cop_kwh": 37.43
+  },
+  {
+    "date": "2000-02-01",
+    "hydro_contribution_pct": 133.34,
+    "reservoir_level_pct": 72.44,
+    "spot_price_cop_kwh": 41.15
+  },
+  {
+    "date": "2000-03-01",
+    "hydro_contribution_pct": 122.66,
+    "reservoir_level_pct": 69.17,
+    "spot_price_cop_kwh": 38.59
+  },
+  {
+    "date": "2000-04-01",
+    "hydro_contribution_pct": 86.48,
+    "reservoir_level_pct": 66.5,
+    "spot_price_cop_kwh": 45.82
+  },
+  {
+    "date": "2000-05-01",
+    "hydro_contribution_pct": 116.72,
+    "reservoir_level_pct": 69.21,
+    "spot_price_cop_kwh": 38.1
+  },
+  {
+    "date": "2000-06-01",
+    "hydro_contribution_pct": 111.19,
+    "reservoir_level_pct": 77.55,
+    "spot_price_cop_kwh": 40.83
+  },
+  {
+    "date": "2000-07-01",
+    "hydro_contribution_pct": 95.93,
+    "reservoir_level_pct": 81.72,
+    "spot_price_cop_kwh": 43.49
+  },
+  {
+    "date": "2000-08-01",
+    "hydro_contribution_pct": 109.16,
+    "reservoir_level_pct": 82.64,
+    "spot_price_cop_kwh": 50.49
+  },
+  {
+    "date": "2000-09-01",
+    "hydro_contribution_pct": 129.47,
+    "reservoir_level_pct": 83.45,
+    "spot_price_cop_kwh": 62.43
+  },
+  {
+    "date": "2000-10-01",
+    "hydro_contribution_pct": 99.42,
+    "reservoir_level_pct": 82.84,
+    "spot_price_cop_kwh": 49.97
+  },
+  {
+    "date": "2000-11-01",
+    "hydro_contribution_pct": 92.96,
+    "reservoir_level_pct": 84.12,
+    "spot_price_cop_kwh": 46.86
+  },
+  {
+    "date": "2000-12-01",
+    "hydro_contribution_pct": 81.63,
+    "reservoir_level_pct": 79.98,
+    "spot_price_cop_kwh": 57.38
+  },
+  {
+    "date": "2001-01-01",
+    "hydro_contribution_pct": 80.57,
+    "reservoir_level_pct": 70.82,
+    "spot_price_cop_kwh": 72.14
+  },
+  {
+    "date": "2001-02-01",
+    "hydro_contribution_pct": 74.53,
+    "reservoir_level_pct": 62.98,
+    "spot_price_cop_kwh": 88.5
+  },
+  {
+    "date": "2001-03-01",
+    "hydro_contribution_pct": 98.7,
+    "reservoir_level_pct": 56.7,
+    "spot_price_cop_kwh": 73.03
+  },
+  {
+    "date": "2001-04-01",
+    "hydro_contribution_pct": 65.09,
+    "reservoir_level_pct": 52.6,
+    "spot_price_cop_kwh": 68.22
+  },
+  {
+    "date": "2001-05-01",
+    "hydro_contribution_pct": 84.51,
+    "reservoir_level_pct": 54.56,
+    "spot_price_cop_kwh": 51.24
+  },
+  {
+    "date": "2001-06-01",
+    "hydro_contribution_pct": 89.06,
+    "reservoir_level_pct": 63.24,
+    "spot_price_cop_kwh": 43.68
+  },
+  {
+    "date": "2001-07-01",
+    "hydro_contribution_pct": 77.15,
+    "reservoir_level_pct": 71.72,
+    "spot_price_cop_kwh": 40.64
+  },
+  {
+    "date": "2001-08-01",
+    "hydro_contribution_pct": 87.95,
+    "reservoir_level_pct": 76.27,
+    "spot_price_cop_kwh": 39.99
+  },
+  {
+    "date": "2001-09-01",
+    "hydro_contribution_pct": 93.18,
+    "reservoir_level_pct": 77.24,
+    "spot_price_cop_kwh": 46.39
+  },
+  {
+    "date": "2001-10-01",
+    "hydro_contribution_pct": 68.72,
+    "reservoir_level_pct": 76.67,
+    "spot_price_cop_kwh": 48.15
+  },
+  {
+    "date": "2001-11-01",
+    "hydro_contribution_pct": 85.71,
+    "reservoir_level_pct": 79.03,
+    "spot_price_cop_kwh": 40.37
+  },
+  {
+    "date": "2001-12-01",
+    "hydro_contribution_pct": 104.63,
+    "reservoir_level_pct": 69.79,
+    "spot_price_cop_kwh": 35.65
+  },
+  {
+    "date": "2002-01-01",
+    "hydro_contribution_pct": 78.19,
+    "reservoir_level_pct": 58.01,
+    "spot_price_cop_kwh": 39.2
+  },
+  {
+    "date": "2002-02-01",
+    "hydro_contribution_pct": 69.04,
+    "reservoir_level_pct": 53.74,
+    "spot_price_cop_kwh": 57.87
+  },
+  {
+    "date": "2002-03-01",
+    "hydro_contribution_pct": 92.25,
+    "reservoir_level_pct": 50.83,
+    "spot_price_cop_kwh": 54.39
+  },
+  {
+    "date": "2002-04-01",
+    "hydro_contribution_pct": 116.98,
+    "reservoir_level_pct": 51.58,
+    "spot_price_cop_kwh": 50.32
+  },
+  {
+    "date": "2002-05-01",
+    "hydro_contribution_pct": 96.24,
+    "reservoir_level_pct": 67.92,
+    "spot_price_cop_kwh": 40.24
+  },
+  {
+    "date": "2002-06-01",
+    "hydro_contribution_pct": 123.23,
+    "reservoir_level_pct": 79.48,
+    "spot_price_cop_kwh": 35.65
+  },
+  {
+    "date": "2002-07-01",
+    "hydro_contribution_pct": 87.55,
+    "reservoir_level_pct": 84.97,
+    "spot_price_cop_kwh": 42.47
+  },
+  {
+    "date": "2002-08-01",
+    "hydro_contribution_pct": 95.51,
+    "reservoir_level_pct": 85.46,
+    "spot_price_cop_kwh": 45.65
+  },
+  {
+    "date": "2002-09-01",
+    "hydro_contribution_pct": 75.27,
+    "reservoir_level_pct": 83.52,
+    "spot_price_cop_kwh": 49.37
+  },
+  {
+    "date": "2002-10-01",
+    "hydro_contribution_pct": 63.52,
+    "reservoir_level_pct": 79.99,
+    "spot_price_cop_kwh": 60.5
+  },
+  {
+    "date": "2002-11-01",
+    "hydro_contribution_pct": 65.31,
+    "reservoir_level_pct": 81.57,
+    "spot_price_cop_kwh": 53.46
+  },
+  {
+    "date": "2002-12-01",
+    "hydro_contribution_pct": 67.92,
+    "reservoir_level_pct": 77.12,
+    "spot_price_cop_kwh": 64.32
+  },
+  {
+    "date": "2003-01-01",
+    "hydro_contribution_pct": 51.18,
+    "reservoir_level_pct": 69.22,
+    "spot_price_cop_kwh": 69.3
+  },
+  {
+    "date": "2003-02-01",
+    "hydro_contribution_pct": 61.04,
+    "reservoir_level_pct": 57.14,
+    "spot_price_cop_kwh": 72.25
+  },
+  {
+    "date": "2003-03-01",
+    "hydro_contribution_pct": 82.23,
+    "reservoir_level_pct": 45.61,
+    "spot_price_cop_kwh": 77.27
+  },
+  {
+    "date": "2003-04-01",
+    "hydro_contribution_pct": 105.39,
+    "reservoir_level_pct": 42.44,
+    "spot_price_cop_kwh": 80.6
+  },
+  {
+    "date": "2003-05-01",
+    "hydro_contribution_pct": 103.78,
+    "reservoir_level_pct": 50.22,
+    "spot_price_cop_kwh": 69.91
+  },
+  {
+    "date": "2003-06-01",
+    "hydro_contribution_pct": 91.16,
+    "reservoir_level_pct": 60.53,
+    "spot_price_cop_kwh": 65.25
+  },
+  {
+    "date": "2003-07-01",
+    "hydro_contribution_pct": 81.75,
+    "reservoir_level_pct": 67.54,
+    "spot_price_cop_kwh": 70.24
+  },
+  {
+    "date": "2003-08-01",
+    "hydro_contribution_pct": 82.14,
+    "reservoir_level_pct": 73.02,
+    "spot_price_cop_kwh": 65.86
+  },
+  {
+    "date": "2003-09-01",
+    "hydro_contribution_pct": 83.57,
+    "reservoir_level_pct": 74.41,
+    "spot_price_cop_kwh": 64.19
+  },
+  {
+    "date": "2003-10-01",
+    "hydro_contribution_pct": 95.77,
+    "reservoir_level_pct": 76.97,
+    "spot_price_cop_kwh": 55.94
+  },
+  {
+    "date": "2003-11-01",
+    "hydro_contribution_pct": 88.43,
+    "reservoir_level_pct": 81.42,
+    "spot_price_cop_kwh": 64.04
+  },
+  {
+    "date": "2003-12-01",
+    "hydro_contribution_pct": 103.2,
+    "reservoir_level_pct": 82.28,
+    "spot_price_cop_kwh": 52.82
+  },
+  {
+    "date": "2004-01-01",
+    "hydro_contribution_pct": 91.84,
+    "reservoir_level_pct": 75.63,
+    "spot_price_cop_kwh": 59.3
+  },
+  {
+    "date": "2004-02-01",
+    "hydro_contribution_pct": 77.74,
+    "reservoir_level_pct": 63.11,
+    "spot_price_cop_kwh": 70.89
+  },
+  {
+    "date": "2004-03-01",
+    "hydro_contribution_pct": 98.53,
+    "reservoir_level_pct": 54.42,
+    "spot_price_cop_kwh": 73.81
+  },
+  {
+    "date": "2004-04-01",
+    "hydro_contribution_pct": 103.38,
+    "reservoir_level_pct": 49.29,
+    "spot_price_cop_kwh": 71.43
+  },
+  {
+    "date": "2004-05-01",
+    "hydro_contribution_pct": 115.44,
+    "reservoir_level_pct": 57.36,
+    "spot_price_cop_kwh": 73.46
+  },
+  {
+    "date": "2004-06-01",
+    "hydro_contribution_pct": 120.79,
+    "reservoir_level_pct": 72.75,
+    "spot_price_cop_kwh": 52.67
+  },
+  {
+    "date": "2004-07-01",
+    "hydro_contribution_pct": 93.38,
+    "reservoir_level_pct": 78.57,
+    "spot_price_cop_kwh": 53.61
+  },
+  {
+    "date": "2004-08-01",
+    "hydro_contribution_pct": 96.57,
+    "reservoir_level_pct": 81.18,
+    "spot_price_cop_kwh": 54.72
+  },
+  {
+    "date": "2004-09-01",
+    "hydro_contribution_pct": 96.68,
+    "reservoir_level_pct": 82.8,
+    "spot_price_cop_kwh": 61.26
+  },
+  {
+    "date": "2004-10-01",
+    "hydro_contribution_pct": 94.69,
+    "reservoir_level_pct": 83.71,
+    "spot_price_cop_kwh": 72.75
+  },
+  {
+    "date": "2004-11-01",
+    "hydro_contribution_pct": 111.58,
+    "reservoir_level_pct": 86.46,
+    "spot_price_cop_kwh": 68.46
+  },
+  {
+    "date": "2004-12-01",
+    "hydro_contribution_pct": 88.47,
+    "reservoir_level_pct": 84.33,
+    "spot_price_cop_kwh": 68.5
+  },
+  {
+    "date": "2005-01-01",
+    "hydro_contribution_pct": 97.8,
+    "reservoir_level_pct": 77.02,
+    "spot_price_cop_kwh": 83.59
+  },
+  {
+    "date": "2005-02-01",
+    "hydro_contribution_pct": 104.05,
+    "reservoir_level_pct": 68.05,
+    "spot_price_cop_kwh": 74.88
+  },
+  {
+    "date": "2005-03-01",
+    "hydro_contribution_pct": 79.85,
+    "reservoir_level_pct": 56.26,
+    "spot_price_cop_kwh": 70.01
+  },
+  {
+    "date": "2005-04-01",
+    "hydro_contribution_pct": 97.66,
+    "reservoir_level_pct": 48.99,
+    "spot_price_cop_kwh": 69.12
+  },
+  {
+    "date": "2005-05-01",
+    "hydro_contribution_pct": 109.25,
+    "reservoir_level_pct": 52.63,
+    "spot_price_cop_kwh": 70.18
+  },
+  {
+    "date": "2005-06-01",
+    "hydro_contribution_pct": 90.1,
+    "reservoir_level_pct": 62.57,
+    "spot_price_cop_kwh": 60.34
+  },
+  {
+    "date": "2005-07-01",
+    "hydro_contribution_pct": 64.07,
+    "reservoir_level_pct": 62.47,
+    "spot_price_cop_kwh": 78.47
+  },
+  {
+    "date": "2005-08-01",
+    "hydro_contribution_pct": 80.91,
+    "reservoir_level_pct": 63.92,
+    "spot_price_cop_kwh": 86.82
+  },
+  {
+    "date": "2005-09-01",
+    "hydro_contribution_pct": 97.48,
+    "reservoir_level_pct": 67.81,
+    "spot_price_cop_kwh": 88.55
+  },
+  {
+    "date": "2005-10-01",
+    "hydro_contribution_pct": 101.1,
+    "reservoir_level_pct": 71.18,
+    "spot_price_cop_kwh": 82.47
+  },
+  {
+    "date": "2005-11-01",
+    "hydro_contribution_pct": 123.91,
+    "reservoir_level_pct": 80.54,
+    "spot_price_cop_kwh": 58.44
+  },
+  {
+    "date": "2005-12-01",
+    "hydro_contribution_pct": 86.15,
+    "reservoir_level_pct": 80.94,
+    "spot_price_cop_kwh": 80.96
+  },
+  {
+    "date": "2006-01-01",
+    "hydro_contribution_pct": 106.08,
+    "reservoir_level_pct": 73.85,
+    "spot_price_cop_kwh": 79.63
+  },
+  {
+    "date": "2006-02-01",
+    "hydro_contribution_pct": 97.34,
+    "reservoir_level_pct": 63.47,
+    "spot_price_cop_kwh": 76.48
+  },
+  {
+    "date": "2006-03-01",
+    "hydro_contribution_pct": 147.96,
+    "reservoir_level_pct": 54.37,
+    "spot_price_cop_kwh": 66.91
+  },
+  {
+    "date": "2006-04-01",
+    "hydro_contribution_pct": 153.18,
+    "reservoir_level_pct": 56.4,
+    "spot_price_cop_kwh": 55.32
+  },
+  {
+    "date": "2006-05-01",
+    "hydro_contribution_pct": 134.68,
+    "reservoir_level_pct": 69.4,
+    "spot_price_cop_kwh": 54.99
+  },
+  {
+    "date": "2006-06-01",
+    "hydro_contribution_pct": 114.7,
+    "reservoir_level_pct": 78.62,
+    "spot_price_cop_kwh": 55.0
+  },
+  {
+    "date": "2006-07-01",
+    "hydro_contribution_pct": 88.03,
+    "reservoir_level_pct": 81.99,
+    "spot_price_cop_kwh": 62.34
+  },
+  {
+    "date": "2006-08-01",
+    "hydro_contribution_pct": 76.14,
+    "reservoir_level_pct": 81.22,
+    "spot_price_cop_kwh": 68.08
+  },
+  {
+    "date": "2006-09-01",
+    "hydro_contribution_pct": 78.1,
+    "reservoir_level_pct": 78.83,
+    "spot_price_cop_kwh": 105.22
+  },
+  {
+    "date": "2006-10-01",
+    "hydro_contribution_pct": 102.83,
+    "reservoir_level_pct": 79.68,
+    "spot_price_cop_kwh": 132.57
+  },
+  {
+    "date": "2006-11-01",
+    "hydro_contribution_pct": 114.55,
+    "reservoir_level_pct": 85.77,
+    "spot_price_cop_kwh": 82.47
+  },
+  {
+    "date": "2006-12-01",
+    "hydro_contribution_pct": 104.29,
+    "reservoir_level_pct": 86.27,
+    "spot_price_cop_kwh": 65.46
+  },
+  {
+    "date": "2007-01-01",
+    "hydro_contribution_pct": 100.26,
+    "reservoir_level_pct": 78.95,
+    "spot_price_cop_kwh": 89.56
+  },
+  {
+    "date": "2007-02-01",
+    "hydro_contribution_pct": 65.61,
+    "reservoir_level_pct": 66.96,
+    "spot_price_cop_kwh": 107.75
+  },
+  {
+    "date": "2007-03-01",
+    "hydro_contribution_pct": 94.37,
+    "reservoir_level_pct": 54.61,
+    "spot_price_cop_kwh": 101.75
+  },
+  {
+    "date": "2007-04-01",
+    "hydro_contribution_pct": 120.85,
+    "reservoir_level_pct": 51.74,
+    "spot_price_cop_kwh": 92.74
+  },
+  {
+    "date": "2007-05-01",
+    "hydro_contribution_pct": 110.62,
+    "reservoir_level_pct": 55.38,
+    "spot_price_cop_kwh": 76.23
+  },
+  {
+    "date": "2007-06-01",
+    "hydro_contribution_pct": 113.8,
+    "reservoir_level_pct": 64.07,
+    "spot_price_cop_kwh": 77.16
+  },
+  {
+    "date": "2007-07-01",
+    "hydro_contribution_pct": 78.41,
+    "reservoir_level_pct": 70.15,
+    "spot_price_cop_kwh": 80.85
+  },
+  {
+    "date": "2007-08-01",
+    "hydro_contribution_pct": 99.8,
+    "reservoir_level_pct": 70.22,
+    "spot_price_cop_kwh": 86.75
+  },
+  {
+    "date": "2007-09-01",
+    "hydro_contribution_pct": 103.36,
+    "reservoir_level_pct": 73.67,
+    "spot_price_cop_kwh": 75.63
+  },
+  {
+    "date": "2007-10-01",
+    "hydro_contribution_pct": 125.63,
+    "reservoir_level_pct": 76.76,
+    "spot_price_cop_kwh": 81.85
+  },
+  {
+    "date": "2007-11-01",
+    "hydro_contribution_pct": 107.07,
+    "reservoir_level_pct": 82.41,
+    "spot_price_cop_kwh": 64.61
+  },
+  {
+    "date": "2007-12-01",
+    "hydro_contribution_pct": 116.87,
+    "reservoir_level_pct": 78.72,
+    "spot_price_cop_kwh": 85.95
+  },
+  {
+    "date": "2008-01-01",
+    "hydro_contribution_pct": 118.73,
+    "reservoir_level_pct": 74.85,
+    "spot_price_cop_kwh": 95.99
+  },
+  {
+    "date": "2008-02-01",
+    "hydro_contribution_pct": 132.1,
+    "reservoir_level_pct": 65.91,
+    "spot_price_cop_kwh": 101.51
+  },
+  {
+    "date": "2008-03-01",
+    "hydro_contribution_pct": 124.97,
+    "reservoir_level_pct": 59.58,
+    "spot_price_cop_kwh": 90.97
+  },
+  {
+    "date": "2008-04-01",
+    "hydro_contribution_pct": 88.99,
+    "reservoir_level_pct": 53.83,
+    "spot_price_cop_kwh": 105.33
+  },
+  {
+    "date": "2008-05-01",
+    "hydro_contribution_pct": 107.58,
+    "reservoir_level_pct": 54.96,
+    "spot_price_cop_kwh": 99.14
+  },
+  {
+    "date": "2008-06-01",
+    "hydro_contribution_pct": 121.79,
+    "reservoir_level_pct": 66.79,
+    "spot_price_cop_kwh": 78.41
+  },
+  {
+    "date": "2008-07-01",
+    "hydro_contribution_pct": 132.59,
+    "reservoir_level_pct": 79.8,
+    "spot_price_cop_kwh": 66.17
+  },
+  {
+    "date": "2008-08-01",
+    "hydro_contribution_pct": 116.27,
+    "reservoir_level_pct": 83.29,
+    "spot_price_cop_kwh": 75.93
+  },
+  {
+    "date": "2008-09-01",
+    "hydro_contribution_pct": 109.27,
+    "reservoir_level_pct": 83.2,
+    "spot_price_cop_kwh": 83.77
+  },
+  {
+    "date": "2008-10-01",
+    "hydro_contribution_pct": 112.07,
+    "reservoir_level_pct": 81.9,
+    "spot_price_cop_kwh": 86.9
+  },
+  {
+    "date": "2008-11-01",
+    "hydro_contribution_pct": 149.14,
+    "reservoir_level_pct": 83.65,
+    "spot_price_cop_kwh": 91.46
+  },
+  {
+    "date": "2008-12-01",
+    "hydro_contribution_pct": 115.13,
+    "reservoir_level_pct": 84.46,
+    "spot_price_cop_kwh": 111.39
+  },
+  {
+    "date": "2009-01-01",
+    "hydro_contribution_pct": 148.59,
+    "reservoir_level_pct": 79.13,
+    "spot_price_cop_kwh": 134.7
+  },
+  {
+    "date": "2009-02-01",
+    "hydro_contribution_pct": 138.47,
+    "reservoir_level_pct": 71.4,
+    "spot_price_cop_kwh": 123.43
+  },
+  {
+    "date": "2009-03-01",
+    "hydro_contribution_pct": 144.44,
+    "reservoir_level_pct": 62.82,
+    "spot_price_cop_kwh": 109.81
+  },
+  {
+    "date": "2009-04-01",
+    "hydro_contribution_pct": 111.61,
+    "reservoir_level_pct": 60.05,
+    "spot_price_cop_kwh": 90.45
+  },
+  {
+    "date": "2009-05-01",
+    "hydro_contribution_pct": 76.91,
+    "reservoir_level_pct": 58.94,
+    "spot_price_cop_kwh": 119.68
+  },
+  {
+    "date": "2009-06-01",
+    "hydro_contribution_pct": 84.74,
+    "reservoir_level_pct": 59.75,
+    "spot_price_cop_kwh": 127.17
+  },
+  {
+    "date": "2009-07-01",
+    "hydro_contribution_pct": 91.81,
+    "reservoir_level_pct": 67.16,
+    "spot_price_cop_kwh": 127.03
+  },
+  {
+    "date": "2009-08-01",
+    "hydro_contribution_pct": 92.03,
+    "reservoir_level_pct": 71.48,
+    "spot_price_cop_kwh": 129.42
+  },
+  {
+    "date": "2009-09-01",
+    "hydro_contribution_pct": 67.61,
+    "reservoir_level_pct": 70.29,
+    "spot_price_cop_kwh": 185.79
+  },
+  {
+    "date": "2009-10-01",
+    "hydro_contribution_pct": 66.04,
+    "reservoir_level_pct": 66.25,
+    "spot_price_cop_kwh": 193.06
+  },
+  {
+    "date": "2009-11-01",
+    "hydro_contribution_pct": 70.02,
+    "reservoir_level_pct": 69.59,
+    "spot_price_cop_kwh": 154.67
+  },
+  {
+    "date": "2009-12-01",
+    "hydro_contribution_pct": 57.02,
+    "reservoir_level_pct": 66.0,
+    "spot_price_cop_kwh": 199.72
+  },
+  {
+    "date": "2010-01-01",
+    "hydro_contribution_pct": 52.45,
+    "reservoir_level_pct": 61.66,
+    "spot_price_cop_kwh": 154.67
+  },
+  {
+    "date": "2010-02-01",
+    "hydro_contribution_pct": 57.46,
+    "reservoir_level_pct": 52.76,
+    "spot_price_cop_kwh": 199.36
+  },
+  {
+    "date": "2010-03-01",
+    "hydro_contribution_pct": 73.49,
+    "reservoir_level_pct": 44.44,
+    "spot_price_cop_kwh": 192.76
+  },
+  {
+    "date": "2010-04-01",
+    "hydro_contribution_pct": 94.92,
+    "reservoir_level_pct": 41.82,
+    "spot_price_cop_kwh": 197.63
+  },
+  {
+    "date": "2010-05-01",
+    "hydro_contribution_pct": 90.59,
+    "reservoir_level_pct": 44.79,
+    "spot_price_cop_kwh": 151.81
+  },
+  {
+    "date": "2010-06-01",
+    "hydro_contribution_pct": 98.54,
+    "reservoir_level_pct": 51.59,
+    "spot_price_cop_kwh": 93.62
+  },
+  {
+    "date": "2010-07-01",
+    "hydro_contribution_pct": 118.87,
+    "reservoir_level_pct": 58.84,
+    "spot_price_cop_kwh": 84.22
+  },
+  {
+    "date": "2010-08-01",
+    "hydro_contribution_pct": 96.13,
+    "reservoir_level_pct": 63.78,
+    "spot_price_cop_kwh": 86.82
+  },
+  {
+    "date": "2010-09-01",
+    "hydro_contribution_pct": 115.62,
+    "reservoir_level_pct": 65.89,
+    "spot_price_cop_kwh": 114.72
+  },
+  {
+    "date": "2010-10-01",
+    "hydro_contribution_pct": 103.18,
+    "reservoir_level_pct": 68.73,
+    "spot_price_cop_kwh": 139.39
+  },
+  {
+    "date": "2010-11-01",
+    "hydro_contribution_pct": 158.26,
+    "reservoir_level_pct": 76.07,
+    "spot_price_cop_kwh": 95.25
+  },
+  {
+    "date": "2010-12-01",
+    "hydro_contribution_pct": 166.11,
+    "reservoir_level_pct": 79.41,
+    "spot_price_cop_kwh": 70.24
+  },
+  {
+    "date": "2011-01-01",
+    "hydro_contribution_pct": 119.51,
+    "reservoir_level_pct": 72.99,
+    "spot_price_cop_kwh": 91.38
+  },
+  {
+    "date": "2011-02-01",
+    "hydro_contribution_pct": 124.22,
+    "reservoir_level_pct": 61.96,
+    "spot_price_cop_kwh": 106.62
+  },
+  {
+    "date": "2011-03-01",
+    "hydro_contribution_pct": 197.58,
+    "reservoir_level_pct": 58.01,
+    "spot_price_cop_kwh": 81.14
+  },
+  {
+    "date": "2011-04-01",
+    "hydro_contribution_pct": 239.38,
+    "reservoir_level_pct": 65.86,
+    "spot_price_cop_kwh": 76.05
+  },
+  {
+    "date": "2011-05-01",
+    "hydro_contribution_pct": 152.61,
+    "reservoir_level_pct": 80.77,
+    "spot_price_cop_kwh": 61.41
+  },
+  {
+    "date": "2011-06-01",
+    "hydro_contribution_pct": 114.31,
+    "reservoir_level_pct": 83.87,
+    "spot_price_cop_kwh": 62.38
+  },
+  {
+    "date": "2011-07-01",
+    "hydro_contribution_pct": 93.22,
+    "reservoir_level_pct": 84.45,
+    "spot_price_cop_kwh": 57.4
+  },
+  {
+    "date": "2011-08-01",
+    "hydro_contribution_pct": 91.73,
+    "reservoir_level_pct": 83.18,
+    "spot_price_cop_kwh": 91.97
+  },
+  {
+    "date": "2011-09-01",
+    "hydro_contribution_pct": 96.28,
+    "reservoir_level_pct": 81.26,
+    "spot_price_cop_kwh": 96.36
+  },
+  {
+    "date": "2011-10-01",
+    "hydro_contribution_pct": 119.13,
+    "reservoir_level_pct": 82.15,
+    "spot_price_cop_kwh": 76.83
+  },
+  {
+    "date": "2011-11-01",
+    "hydro_contribution_pct": 142.15,
+    "reservoir_level_pct": 86.19,
+    "spot_price_cop_kwh": 74.07
+  },
+  {
+    "date": "2011-12-01",
+    "hydro_contribution_pct": 185.86,
+    "reservoir_level_pct": 90.73,
+    "spot_price_cop_kwh": 57.76
+  },
+  {
+    "date": "2012-01-01",
+    "hydro_contribution_pct": 150.48,
+    "reservoir_level_pct": 86.77,
+    "spot_price_cop_kwh": 55.41
+  },
+  {
+    "date": "2012-02-01",
+    "hydro_contribution_pct": 112.01,
+    "reservoir_level_pct": 78.52,
+    "spot_price_cop_kwh": 80.18
+  },
+  {
+    "date": "2012-03-01",
+    "hydro_contribution_pct": 137.79,
+    "reservoir_level_pct": 67.44,
+    "spot_price_cop_kwh": 120.11
+  },
+  {
+    "date": "2012-04-01",
+    "hydro_contribution_pct": 184.2,
+    "reservoir_level_pct": 70.62,
+    "spot_price_cop_kwh": 58.75
+  },
+  {
+    "date": "2012-05-01",
+    "hydro_contribution_pct": 131.4,
+    "reservoir_level_pct": 82.63,
+    "spot_price_cop_kwh": 47.84
+  },
+  {
+    "date": "2012-06-01",
+    "hydro_contribution_pct": 82.65,
+    "reservoir_level_pct": 83.94,
+    "spot_price_cop_kwh": 89.22
+  },
+  {
+    "date": "2012-07-01",
+    "hydro_contribution_pct": 95.94,
+    "reservoir_level_pct": 85.73,
+    "spot_price_cop_kwh": 81.65
+  },
+  {
+    "date": "2012-08-01",
+    "hydro_contribution_pct": 103.92,
+    "reservoir_level_pct": 86.31,
+    "spot_price_cop_kwh": 142.62
+  },
+  {
+    "date": "2012-09-01",
+    "hydro_contribution_pct": 69.91,
+    "reservoir_level_pct": 83.87,
+    "spot_price_cop_kwh": 185.66
+  },
+  {
+    "date": "2012-10-01",
+    "hydro_contribution_pct": 83.06,
+    "reservoir_level_pct": 80.6,
+    "spot_price_cop_kwh": 200.45
+  },
+  {
+    "date": "2012-11-01",
+    "hydro_contribution_pct": 73.67,
+    "reservoir_level_pct": 81.01,
+    "spot_price_cop_kwh": 169.39
+  },
+  {
+    "date": "2012-12-01",
+    "hydro_contribution_pct": 75.06,
+    "reservoir_level_pct": 76.61,
+    "spot_price_cop_kwh": 182.67
+  },
+  {
+    "date": "2013-01-01",
+    "hydro_contribution_pct": 65.73,
+    "reservoir_level_pct": 66.93,
+    "spot_price_cop_kwh": 186.02
+  },
+  {
+    "date": "2013-02-01",
+    "hydro_contribution_pct": 101.59,
+    "reservoir_level_pct": 56.32,
+    "spot_price_cop_kwh": 183.07
+  },
+  {
+    "date": "2013-03-01",
+    "hydro_contribution_pct": 106.91,
+    "reservoir_level_pct": 48.24,
+    "spot_price_cop_kwh": 140.45
+  },
+  {
+    "date": "2013-04-01",
+    "hydro_contribution_pct": 75.14,
+    "reservoir_level_pct": 39.67,
+    "spot_price_cop_kwh": 233.02
+  },
+  {
+    "date": "2013-05-01",
+    "hydro_contribution_pct": 114.4,
+    "reservoir_level_pct": 43.15,
+    "spot_price_cop_kwh": 142.9
+  },
+  {
+    "date": "2013-06-01",
+    "hydro_contribution_pct": 77.49,
+    "reservoir_level_pct": 50.69,
+    "spot_price_cop_kwh": 145.64
+  },
+  {
+    "date": "2013-07-01",
+    "hydro_contribution_pct": 76.01,
+    "reservoir_level_pct": 53.74,
+    "spot_price_cop_kwh": 235.9
+  },
+  {
+    "date": "2013-08-01",
+    "hydro_contribution_pct": 104.92,
+    "reservoir_level_pct": 59.97,
+    "spot_price_cop_kwh": 153.45
+  },
+  {
+    "date": "2013-09-01",
+    "hydro_contribution_pct": 90.99,
+    "reservoir_level_pct": 63.65,
+    "spot_price_cop_kwh": 146.34
+  },
+  {
+    "date": "2013-10-01",
+    "hydro_contribution_pct": 76.61,
+    "reservoir_level_pct": 63.86,
+    "spot_price_cop_kwh": 215.58
+  },
+  {
+    "date": "2013-11-01",
+    "hydro_contribution_pct": 95.2,
+    "reservoir_level_pct": 66.75,
+    "spot_price_cop_kwh": 214.03
+  },
+  {
+    "date": "2013-12-01",
+    "hydro_contribution_pct": 111.15,
+    "reservoir_level_pct": 70.61,
+    "spot_price_cop_kwh": 165.91
+  },
+  {
+    "date": "2014-01-01",
+    "hydro_contribution_pct": 96.9,
+    "reservoir_level_pct": 66.17,
+    "spot_price_cop_kwh": 162.01
+  },
+  {
+    "date": "2014-02-01",
+    "hydro_contribution_pct": 110.34,
+    "reservoir_level_pct": 56.19,
+    "spot_price_cop_kwh": 189.64
+  },
+  {
+    "date": "2014-03-01",
+    "hydro_contribution_pct": 114.43,
+    "reservoir_level_pct": 51.82,
+    "spot_price_cop_kwh": 154.26
+  },
+  {
+    "date": "2014-04-01",
+    "hydro_contribution_pct": 79.4,
+    "reservoir_level_pct": 44.21,
+    "spot_price_cop_kwh": 376.41
+  },
+  {
+    "date": "2014-05-01",
+    "hydro_contribution_pct": 76.41,
+    "reservoir_level_pct": 47.66,
+    "spot_price_cop_kwh": 387.1
+  },
+  {
+    "date": "2014-06-01",
+    "hydro_contribution_pct": 106.76,
+    "reservoir_level_pct": 57.44,
+    "spot_price_cop_kwh": 343.39
+  },
+  {
+    "date": "2014-07-01",
+    "hydro_contribution_pct": 97.54,
+    "reservoir_level_pct": 70.89,
+    "spot_price_cop_kwh": 190.35
+  },
+  {
+    "date": "2014-08-01",
+    "hydro_contribution_pct": 86.18,
+    "reservoir_level_pct": 74.93,
+    "spot_price_cop_kwh": 204.98
+  },
+  {
+    "date": "2014-09-01",
+    "hydro_contribution_pct": 86.22,
+    "reservoir_level_pct": 74.7,
+    "spot_price_cop_kwh": 179.71
+  },
+  {
+    "date": "2014-10-01",
+    "hydro_contribution_pct": 88.18,
+    "reservoir_level_pct": 75.49,
+    "spot_price_cop_kwh": 211.23
+  },
+  {
+    "date": "2014-11-01",
+    "hydro_contribution_pct": 87.0,
+    "reservoir_level_pct": 79.4,
+    "spot_price_cop_kwh": 168.43
+  },
+  {
+    "date": "2014-12-01",
+    "hydro_contribution_pct": 85.14,
+    "reservoir_level_pct": 77.89,
+    "spot_price_cop_kwh": 177.03
+  },
+  {
+    "date": "2015-01-01",
+    "hydro_contribution_pct": 78.33,
+    "reservoir_level_pct": 70.06,
+    "spot_price_cop_kwh": 189.97
+  },
+  {
+    "date": "2015-02-01",
+    "hydro_contribution_pct": 104.76,
+    "reservoir_level_pct": 61.52,
+    "spot_price_cop_kwh": 168.21
+  },
+  {
+    "date": "2015-03-01",
+    "hydro_contribution_pct": 86.44,
+    "reservoir_level_pct": 49.54,
+    "spot_price_cop_kwh": 207.44
+  },
+  {
+    "date": "2015-04-01",
+    "hydro_contribution_pct": 94.43,
+    "reservoir_level_pct": 45.65,
+    "spot_price_cop_kwh": 163.47
+  },
+  {
+    "date": "2015-05-01",
+    "hydro_contribution_pct": 68.66,
+    "reservoir_level_pct": 42.82,
+    "spot_price_cop_kwh": 264.38
+  },
+  {
+    "date": "2015-06-01",
+    "hydro_contribution_pct": 107.76,
+    "reservoir_level_pct": 52.24,
+    "spot_price_cop_kwh": 190.16
+  },
+  {
+    "date": "2015-07-01",
+    "hydro_contribution_pct": 96.96,
+    "reservoir_level_pct": 63.13,
+    "spot_price_cop_kwh": 209.73
+  },
+  {
+    "date": "2015-08-01",
+    "hydro_contribution_pct": 96.84,
+    "reservoir_level_pct": 68.64,
+    "spot_price_cop_kwh": 186.69
+  },
+  {
+    "date": "2015-09-01",
+    "hydro_contribution_pct": 65.95,
+    "reservoir_level_pct": 67.87,
+    "spot_price_cop_kwh": 463.8
+  },
+  {
+    "date": "2015-10-01",
+    "hydro_contribution_pct": 49.67,
+    "reservoir_level_pct": 63.48,
+    "spot_price_cop_kwh": 1117.27
+  },
+  {
+    "date": "2015-11-01",
+    "hydro_contribution_pct": 63.56,
+    "reservoir_level_pct": 65.19,
+    "spot_price_cop_kwh": 772.86
+  },
+  {
+    "date": "2015-12-01",
+    "hydro_contribution_pct": 51.74,
+    "reservoir_level_pct": 64.63,
+    "spot_price_cop_kwh": 636.36
+  },
+  {
+    "date": "2016-01-01",
+    "hydro_contribution_pct": 50.75,
+    "reservoir_level_pct": 57.4,
+    "spot_price_cop_kwh": 562.87
+  },
+  {
+    "date": "2016-02-01",
+    "hydro_contribution_pct": 56.79,
+    "reservoir_level_pct": 47.3,
+    "spot_price_cop_kwh": 650.31
+  },
+  {
+    "date": "2016-03-01",
+    "hydro_contribution_pct": 57.56,
+    "reservoir_level_pct": 40.71,
+    "spot_price_cop_kwh": 832.92
+  },
+  {
+    "date": "2016-04-01",
+    "hydro_contribution_pct": 80.05,
+    "reservoir_level_pct": 40.1,
+    "spot_price_cop_kwh": 335.47
+  },
+  {
+    "date": "2016-05-01",
+    "hydro_contribution_pct": 78.07,
+    "reservoir_level_pct": 41.97,
+    "spot_price_cop_kwh": 141.87
+  },
+  {
+    "date": "2016-06-01",
+    "hydro_contribution_pct": 73.48,
+    "reservoir_level_pct": 45.33,
+    "spot_price_cop_kwh": 171.47
+  },
+  {
+    "date": "2016-07-01",
+    "hydro_contribution_pct": 94.16,
+    "reservoir_level_pct": 53.54,
+    "spot_price_cop_kwh": 131.05
+  },
+  {
+    "date": "2016-08-01",
+    "hydro_contribution_pct": 82.07,
+    "reservoir_level_pct": 56.06,
+    "spot_price_cop_kwh": 201.63
+  },
+  {
+    "date": "2016-09-01",
+    "hydro_contribution_pct": 105.87,
+    "reservoir_level_pct": 59.84,
+    "spot_price_cop_kwh": 154.24
+  },
+  {
+    "date": "2016-10-01",
+    "hydro_contribution_pct": 81.57,
+    "reservoir_level_pct": 63.1,
+    "spot_price_cop_kwh": 188.88
+  },
+  {
+    "date": "2016-11-01",
+    "hydro_contribution_pct": 96.78,
+    "reservoir_level_pct": 68.91,
+    "spot_price_cop_kwh": 169.12
+  },
+  {
+    "date": "2016-12-01",
+    "hydro_contribution_pct": 109.52,
+    "reservoir_level_pct": 74.85,
+    "spot_price_cop_kwh": 108.74
+  },
+  {
+    "date": "2017-01-01",
+    "hydro_contribution_pct": 127.3,
+    "reservoir_level_pct": 71.21,
+    "spot_price_cop_kwh": 114.6
+  },
+  {
+    "date": "2017-02-01",
+    "hydro_contribution_pct": 84.79,
+    "reservoir_level_pct": 61.32,
+    "spot_price_cop_kwh": 159.54
+  },
+  {
+    "date": "2017-03-01",
+    "hydro_contribution_pct": 162.65,
+    "reservoir_level_pct": 54.8,
+    "spot_price_cop_kwh": 121.91
+  },
+  {
+    "date": "2017-04-01",
+    "hydro_contribution_pct": 95.66,
+    "reservoir_level_pct": 58.92,
+    "spot_price_cop_kwh": 98.35
+  },
+  {
+    "date": "2017-05-01",
+    "hydro_contribution_pct": 123.97,
+    "reservoir_level_pct": 66.74,
+    "spot_price_cop_kwh": 72.14
+  },
+  {
+    "date": "2017-06-01",
+    "hydro_contribution_pct": 103.03,
+    "reservoir_level_pct": 75.21,
+    "spot_price_cop_kwh": 68.68
+  },
+  {
+    "date": "2017-07-01",
+    "hydro_contribution_pct": 89.89,
+    "reservoir_level_pct": 79.06,
+    "spot_price_cop_kwh": 71.26
+  },
+  {
+    "date": "2017-08-01",
+    "hydro_contribution_pct": 77.98,
+    "reservoir_level_pct": 77.5,
+    "spot_price_cop_kwh": 93.52
+  },
+  {
+    "date": "2017-09-01",
+    "hydro_contribution_pct": 87.05,
+    "reservoir_level_pct": 74.84,
+    "spot_price_cop_kwh": 125.57
+  },
+  {
+    "date": "2017-10-01",
+    "hydro_contribution_pct": 69.23,
+    "reservoir_level_pct": 72.45,
+    "spot_price_cop_kwh": 139.01
+  },
+  {
+    "date": "2017-11-01",
+    "hydro_contribution_pct": 86.22,
+    "reservoir_level_pct": 71.73,
+    "spot_price_cop_kwh": 128.48
+  },
+  {
+    "date": "2017-12-01",
+    "hydro_contribution_pct": 81.4,
+    "reservoir_level_pct": 68.86,
+    "spot_price_cop_kwh": 102.19
+  },
+  {
+    "date": "2018-01-01",
+    "hydro_contribution_pct": 115.36,
+    "reservoir_level_pct": 63.43,
+    "spot_price_cop_kwh": 125.54
+  },
+  {
+    "date": "2018-02-01",
+    "hydro_contribution_pct": 83.99,
+    "reservoir_level_pct": 54.28,
+    "spot_price_cop_kwh": 141.02
+  },
+  {
+    "date": "2018-03-01",
+    "hydro_contribution_pct": 84.8,
+    "reservoir_level_pct": 43.3,
+    "spot_price_cop_kwh": 173.17
+  },
+  {
+    "date": "2018-04-01",
+    "hydro_contribution_pct": 132.47,
+    "reservoir_level_pct": 43.72,
+    "spot_price_cop_kwh": 118.02
+  },
+  {
+    "date": "2018-05-01",
+    "hydro_contribution_pct": 143.73,
+    "reservoir_level_pct": 58.01,
+    "spot_price_cop_kwh": 75.79
+  },
+  {
+    "date": "2018-06-01",
+    "hydro_contribution_pct": 119.51,
+    "reservoir_level_pct": 74.34,
+    "spot_price_cop_kwh": 74.29
+  },
+  {
+    "date": "2018-07-01",
+    "hydro_contribution_pct": 104.86,
+    "reservoir_level_pct": 80.05,
+    "spot_price_cop_kwh": 81.03
+  },
+  {
+    "date": "2018-08-01",
+    "hydro_contribution_pct": 95.01,
+    "reservoir_level_pct": 80.92,
+    "spot_price_cop_kwh": 97.39
+  },
+  {
+    "date": "2018-09-01",
+    "hydro_contribution_pct": 86.45,
+    "reservoir_level_pct": 79.59,
+    "spot_price_cop_kwh": 103.54
+  },
+  {
+    "date": "2018-10-01",
+    "hydro_contribution_pct": 90.74,
+    "reservoir_level_pct": 80.18,
+    "spot_price_cop_kwh": 125.03
+  },
+  {
+    "date": "2018-11-01",
+    "hydro_contribution_pct": 85.77,
+    "reservoir_level_pct": 81.87,
+    "spot_price_cop_kwh": 105.46
+  },
+  {
+    "date": "2018-12-01",
+    "hydro_contribution_pct": 64.19,
+    "reservoir_level_pct": 76.85,
+    "spot_price_cop_kwh": 192.71
+  },
+  {
+    "date": "2019-01-01",
+    "hydro_contribution_pct": 69.76,
+    "reservoir_level_pct": 65.76,
+    "spot_price_cop_kwh": 288.97
+  },
+  {
+    "date": "2019-02-01",
+    "hydro_contribution_pct": 78.38,
+    "reservoir_level_pct": 54.23,
+    "spot_price_cop_kwh": 308.0
+  },
+  {
+    "date": "2019-03-01",
+    "hydro_contribution_pct": 92.06,
+    "reservoir_level_pct": 45.79,
+    "spot_price_cop_kwh": 266.6
+  },
+  {
+    "date": "2019-04-01",
+    "hydro_contribution_pct": 108.77,
+    "reservoir_level_pct": 44.74,
+    "spot_price_cop_kwh": 193.14
+  },
+  {
+    "date": "2019-05-01",
+    "hydro_contribution_pct": 99.38,
+    "reservoir_level_pct": 50.03,
+    "spot_price_cop_kwh": 175.19
+  },
+  {
+    "date": "2019-06-01",
+    "hydro_contribution_pct": 111.22,
+    "reservoir_level_pct": 64.78,
+    "spot_price_cop_kwh": 115.67
+  },
+  {
+    "date": "2019-07-01",
+    "hydro_contribution_pct": 96.51,
+    "reservoir_level_pct": 72.86,
+    "spot_price_cop_kwh": 125.07
+  },
+  {
+    "date": "2019-08-01",
+    "hydro_contribution_pct": 77.59,
+    "reservoir_level_pct": 74.13,
+    "spot_price_cop_kwh": 150.84
+  },
+  {
+    "date": "2019-09-01",
+    "hydro_contribution_pct": 69.15,
+    "reservoir_level_pct": 67.86,
+    "spot_price_cop_kwh": 288.18
+  },
+  {
+    "date": "2019-10-01",
+    "hydro_contribution_pct": 81.07,
+    "reservoir_level_pct": 67.55,
+    "spot_price_cop_kwh": 327.43
+  },
+  {
+    "date": "2019-11-01",
+    "hydro_contribution_pct": 72.59,
+    "reservoir_level_pct": 70.34,
+    "spot_price_cop_kwh": 236.54
+  },
+  {
+    "date": "2019-12-01",
+    "hydro_contribution_pct": 75.44,
+    "reservoir_level_pct": 67.31,
+    "spot_price_cop_kwh": 313.22
+  },
+  {
+    "date": "2020-01-01",
+    "hydro_contribution_pct": 70.31,
+    "reservoir_level_pct": 60.24,
+    "spot_price_cop_kwh": 327.54
+  },
+  {
+    "date": "2020-02-01",
+    "hydro_contribution_pct": 68.33,
+    "reservoir_level_pct": 47.91,
+    "spot_price_cop_kwh": 434.43
+  },
+  {
+    "date": "2020-03-01",
+    "hydro_contribution_pct": 69.74,
+    "reservoir_level_pct": 38.64,
+    "spot_price_cop_kwh": 342.6
+  },
+  {
+    "date": "2020-04-01",
+    "hydro_contribution_pct": 60.26,
+    "reservoir_level_pct": 33.5,
+    "spot_price_cop_kwh": 255.04
+  },
+  {
+    "date": "2020-05-01",
+    "hydro_contribution_pct": 59.0,
+    "reservoir_level_pct": 32.88,
+    "spot_price_cop_kwh": 366.05
+  },
+  {
+    "date": "2020-06-01",
+    "hydro_contribution_pct": 79.47,
+    "reservoir_level_pct": 41.01,
+    "spot_price_cop_kwh": 309.93
+  },
+  {
+    "date": "2020-07-01",
+    "hydro_contribution_pct": 104.75,
+    "reservoir_level_pct": 56.25,
+    "spot_price_cop_kwh": 159.26
+  },
+  {
+    "date": "2020-08-01",
+    "hydro_contribution_pct": 79.96,
+    "reservoir_level_pct": 63.06,
+    "spot_price_cop_kwh": 160.55
+  },
+  {
+    "date": "2020-09-01",
+    "hydro_contribution_pct": 88.58,
+    "reservoir_level_pct": 67.12,
+    "spot_price_cop_kwh": 152.94
+  },
+  {
+    "date": "2020-10-01",
+    "hydro_contribution_pct": 69.25,
+    "reservoir_level_pct": 68.44,
+    "spot_price_cop_kwh": 202.59
+  },
+  {
+    "date": "2020-11-01",
+    "hydro_contribution_pct": 111.13,
+    "reservoir_level_pct": 73.14,
+    "spot_price_cop_kwh": 184.05
+  },
+  {
+    "date": "2020-12-01",
+    "hydro_contribution_pct": 89.18,
+    "reservoir_level_pct": 74.25,
+    "spot_price_cop_kwh": 165.51
+  },
+  {
+    "date": "2021-01-01",
+    "hydro_contribution_pct": 100.3,
+    "reservoir_level_pct": 68.34,
+    "spot_price_cop_kwh": 182.85
+  },
+  {
+    "date": "2021-02-01",
+    "hydro_contribution_pct": 96.67,
+    "reservoir_level_pct": 57.15,
+    "spot_price_cop_kwh": 272.22
+  },
+  {
+    "date": "2021-03-01",
+    "hydro_contribution_pct": 172.38,
+    "reservoir_level_pct": 55.0,
+    "spot_price_cop_kwh": 168.45
+  },
+  {
+    "date": "2021-04-01",
+    "hydro_contribution_pct": 110.97,
+    "reservoir_level_pct": 60.32,
+    "spot_price_cop_kwh": 164.38
+  },
+  {
+    "date": "2021-05-01",
+    "hydro_contribution_pct": 132.07,
+    "reservoir_level_pct": 74.19,
+    "spot_price_cop_kwh": 101.0
+  },
+  {
+    "date": "2021-06-01",
+    "hydro_contribution_pct": 138.14,
+    "reservoir_level_pct": 83.35,
+    "spot_price_cop_kwh": 90.67
+  },
+  {
+    "date": "2021-07-01",
+    "hydro_contribution_pct": 109.0,
+    "reservoir_level_pct": 84.75,
+    "spot_price_cop_kwh": 91.88
+  },
+  {
+    "date": "2021-08-01",
+    "hydro_contribution_pct": 116.51,
+    "reservoir_level_pct": 85.9,
+    "spot_price_cop_kwh": 94.08
+  },
+  {
+    "date": "2021-09-01",
+    "hydro_contribution_pct": 108.94,
+    "reservoir_level_pct": 85.39,
+    "spot_price_cop_kwh": 109.12
+  },
+  {
+    "date": "2021-10-01",
+    "hydro_contribution_pct": 100.54,
+    "reservoir_level_pct": 84.09,
+    "spot_price_cop_kwh": 105.2
+  },
+  {
+    "date": "2021-11-01",
+    "hydro_contribution_pct": 99.34,
+    "reservoir_level_pct": 84.35,
+    "spot_price_cop_kwh": 105.19
+  },
+  {
+    "date": "2021-12-01",
+    "hydro_contribution_pct": 83.55,
+    "reservoir_level_pct": 81.32,
+    "spot_price_cop_kwh": 338.43
+  },
+  {
+    "date": "2022-01-01",
+    "hydro_contribution_pct": 90.7,
+    "reservoir_level_pct": 73.92,
+    "spot_price_cop_kwh": 292.5
+  },
+  {
+    "date": "2022-02-01",
+    "hydro_contribution_pct": 113.67,
+    "reservoir_level_pct": 62.25,
+    "spot_price_cop_kwh": 402.67
+  },
+  {
+    "date": "2022-03-01",
+    "hydro_contribution_pct": 150.21,
+    "reservoir_level_pct": 58.73,
+    "spot_price_cop_kwh": 229.43
+  },
+  {
+    "date": "2022-04-01",
+    "hydro_contribution_pct": 133.13,
+    "reservoir_level_pct": 59.77,
+    "spot_price_cop_kwh": 145.68
+  },
+  {
+    "date": "2022-05-01",
+    "hydro_contribution_pct": 103.82,
+    "reservoir_level_pct": 67.74,
+    "spot_price_cop_kwh": 106.25
+  },
+  {
+    "date": "2022-06-01",
+    "hydro_contribution_pct": 124.38,
+    "reservoir_level_pct": 76.31,
+    "spot_price_cop_kwh": 104.55
+  },
+  {
+    "date": "2022-07-01",
+    "hydro_contribution_pct": 118.7,
+    "reservoir_level_pct": 83.86,
+    "spot_price_cop_kwh": 109.79
+  },
+  {
+    "date": "2022-08-01",
+    "hydro_contribution_pct": 118.67,
+    "reservoir_level_pct": 86.69,
+    "spot_price_cop_kwh": 151.9
+  },
+  {
+    "date": "2022-09-01",
+    "hydro_contribution_pct": 113.82,
+    "reservoir_level_pct": 84.96,
+    "spot_price_cop_kwh": 256.46
+  },
+  {
+    "date": "2022-10-01",
+    "hydro_contribution_pct": 128.04,
+    "reservoir_level_pct": 83.23,
+    "spot_price_cop_kwh": 304.08
+  },
+  {
+    "date": "2022-11-01",
+    "hydro_contribution_pct": 137.32,
+    "reservoir_level_pct": 86.49,
+    "spot_price_cop_kwh": 187.69
+  },
+  {
+    "date": "2022-12-01",
+    "hydro_contribution_pct": 102.71,
+    "reservoir_level_pct": 83.0,
+    "spot_price_cop_kwh": 340.61
+  },
+  {
+    "date": "2023-01-01",
+    "hydro_contribution_pct": 142.72,
+    "reservoir_level_pct": 76.73,
+    "spot_price_cop_kwh": 375.99
+  },
+  {
+    "date": "2023-02-01",
+    "hydro_contribution_pct": 96.98,
+    "reservoir_level_pct": 65.33,
+    "spot_price_cop_kwh": 532.63
+  },
+  {
+    "date": "2023-03-01",
+    "hydro_contribution_pct": 173.04,
+    "reservoir_level_pct": 59.95,
+    "spot_price_cop_kwh": 297.8
+  },
+  {
+    "date": "2023-04-01",
+    "hydro_contribution_pct": 114.76,
+    "reservoir_level_pct": 59.58,
+    "spot_price_cop_kwh": 229.51
+  },
+  {
+    "date": "2023-05-01",
+    "hydro_contribution_pct": 78.43,
+    "reservoir_level_pct": 60.45,
+    "spot_price_cop_kwh": 576.79
+  },
+  {
+    "date": "2023-06-01",
+    "hydro_contribution_pct": 86.26,
+    "reservoir_level_pct": 69.91,
+    "spot_price_cop_kwh": 469.17
+  },
+  {
+    "date": "2023-07-01",
+    "hydro_contribution_pct": 93.99,
+    "reservoir_level_pct": 77.7,
+    "spot_price_cop_kwh": 528.18
+  },
+  {
+    "date": "2023-08-01",
+    "hydro_contribution_pct": 83.29,
+    "reservoir_level_pct": 81.83,
+    "spot_price_cop_kwh": 539.02
+  },
+  {
+    "date": "2023-09-01",
+    "hydro_contribution_pct": 55.64,
+    "reservoir_level_pct": 77.42,
+    "spot_price_cop_kwh": 1017.5
+  },
+  {
+    "date": "2023-10-01",
+    "hydro_contribution_pct": 59.45,
+    "reservoir_level_pct": 72.45,
+    "spot_price_cop_kwh": 1023.57
+  },
+  {
+    "date": "2023-11-01",
+    "hydro_contribution_pct": 74.43,
+    "reservoir_level_pct": 75.28,
+    "spot_price_cop_kwh": 520.06
+  },
+  {
+    "date": "2023-12-01",
+    "hydro_contribution_pct": 58.02,
+    "reservoir_level_pct": 71.94,
+    "spot_price_cop_kwh": 659.76
+  },
+  {
+    "date": "2024-01-01",
+    "hydro_contribution_pct": 53.26,
+    "reservoir_level_pct": 63.66,
+    "spot_price_cop_kwh": 560.73
+  },
+  {
+    "date": "2024-02-01",
+    "hydro_contribution_pct": 62.26,
+    "reservoir_level_pct": 50.18,
+    "spot_price_cop_kwh": 572.1
+  },
+  {
+    "date": "2024-03-01",
+    "hydro_contribution_pct": 45.58,
+    "reservoir_level_pct": 36.79,
+    "spot_price_cop_kwh": 625.24
+  },
+  {
+    "date": "2024-04-01",
+    "hydro_contribution_pct": 59.68,
+    "reservoir_level_pct": 30.66,
+    "spot_price_cop_kwh": 754.8
+  },
+  {
+    "date": "2024-05-01",
+    "hydro_contribution_pct": 97.79,
+    "reservoir_level_pct": 38.08,
+    "spot_price_cop_kwh": 296.5
+  },
+  {
+    "date": "2024-06-01",
+    "hydro_contribution_pct": 116.87,
+    "reservoir_level_pct": 51.46,
+    "spot_price_cop_kwh": 285.96
+  },
+  {
+    "date": "2024-07-01",
+    "hydro_contribution_pct": 92.13,
+    "reservoir_level_pct": 59.32,
+    "spot_price_cop_kwh": 289.37
+  },
+  {
+    "date": "2024-08-01",
+    "hydro_contribution_pct": 65.24,
+    "reservoir_level_pct": 57.32,
+    "spot_price_cop_kwh": 571.8
+  },
+  {
+    "date": "2024-09-01",
+    "hydro_contribution_pct": 58.23,
+    "reservoir_level_pct": 51.59,
+    "spot_price_cop_kwh": 875.61
+  },
+  {
+    "date": "2024-10-01",
+    "hydro_contribution_pct": 61.77,
+    "reservoir_level_pct": 53.07,
+    "spot_price_cop_kwh": 1553.09
+  },
+  {
+    "date": "2024-11-01",
+    "hydro_contribution_pct": 89.91,
+    "reservoir_level_pct": 62.64,
+    "spot_price_cop_kwh": 1068.04
+  },
+  {
+    "date": "2024-12-01",
+    "hydro_contribution_pct": 72.99,
+    "reservoir_level_pct": 66.39,
+    "spot_price_cop_kwh": 749.88
+  },
+  {
+    "date": "2025-01-01",
+    "hydro_contribution_pct": 94.29,
+    "reservoir_level_pct": 65.74,
+    "spot_price_cop_kwh": 524.84
+  },
+  {
+    "date": "2025-02-01",
+    "hydro_contribution_pct": 130.5,
+    "reservoir_level_pct": 56.82,
+    "spot_price_cop_kwh": 435.65
+  },
+  {
+    "date": "2025-03-01",
+    "hydro_contribution_pct": 133.81,
+    "reservoir_level_pct": 51.59,
+    "spot_price_cop_kwh": 235.46
+  },
+  {
+    "date": "2025-04-01",
+    "hydro_contribution_pct": 146.29,
+    "reservoir_level_pct": 53.64,
+    "spot_price_cop_kwh": 143.44
+  },
+  {
+    "date": "2025-05-01",
+    "hydro_contribution_pct": 140.9,
+    "reservoir_level_pct": 67.52,
+    "spot_price_cop_kwh": 129.11
+  },
+  {
+    "date": "2025-06-01",
+    "hydro_contribution_pct": 136.25,
+    "reservoir_level_pct": 78.64,
+    "spot_price_cop_kwh": 113.17
+  },
+  {
+    "date": "2025-07-01",
+    "hydro_contribution_pct": 118.59,
+    "reservoir_level_pct": 82.31,
+    "spot_price_cop_kwh": 137.88
+  },
+  {
+    "date": "2025-08-01",
+    "hydro_contribution_pct": 99.88,
+    "reservoir_level_pct": 82.52,
+    "spot_price_cop_kwh": 247.73
+  },
+  {
+    "date": "2025-09-01",
+    "hydro_contribution_pct": 95.42,
+    "reservoir_level_pct": 82.89,
+    "spot_price_cop_kwh": 304.0
+  },
+  {
+    "date": "2025-10-01",
+    "hydro_contribution_pct": 94.16,
+    "reservoir_level_pct": 82.48,
+    "spot_price_cop_kwh": 175.55
+  },
+  {
+    "date": "2025-11-01",
+    "hydro_contribution_pct": 85.75,
+    "reservoir_level_pct": 84.39,
+    "spot_price_cop_kwh": 232.7
+  },
+  {
+    "date": "2025-12-01",
+    "hydro_contribution_pct": 92.79,
+    "reservoir_level_pct": 83.5,
+    "spot_price_cop_kwh": 281.77
+  },
+  {
+    "date": "2026-01-01",
+    "hydro_contribution_pct": 139.19,
+    "reservoir_level_pct": 78.91,
+    "spot_price_cop_kwh": 214.03
+  },
+  {
+    "date": "2026-02-01",
+    "hydro_contribution_pct": 181.32,
+    "reservoir_level_pct": 74.96,
+    "spot_price_cop_kwh": 125.0
+  },
+  {
+    "date": "2026-03-01",
+    "hydro_contribution_pct": 110.21,
+    "reservoir_level_pct": 67.53,
+    "spot_price_cop_kwh": 223.22
+  },
+  {
+    "date": "2026-04-01",
+    "hydro_contribution_pct": 95.02,
+    "reservoir_level_pct": 62.75,
+    "spot_price_cop_kwh": 277.15
+  }
+]
