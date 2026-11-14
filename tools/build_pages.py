@@ -304,14 +304,15 @@ PAGES = {
             ("Year", "2026"),
             ("Role", "Concept, design and code"),
             ("Stack", "Next.js, deck.gl custom shader layers, PMTiles, Web Workers"),
-            ("Visit", "Video above"),
+            ("Visit", link("axonometria/", "Live demo (Bogot&aacute;)")),
         ],
         left=[
             "Architecture portfolios explain buildings with exploded axonometric drawings. This project applies that language to a map. The object taken apart is not the territory but the map itself, separated into the systems that make it up (hydrography, roads, urban fabric, boundaries and place names) and stacked as parallel sheets that collapse back into a normal map.",
             "You enter through the planet as a sphere. Zooming in morphs the projection from sphere to plane, and from zoom 10 a button opens the exploded view, where the stack can be orbited and pulled apart. Each system can also be shown as a plan sheet.",
         ],
         right=[
-            "There is no backend. Tiles come straight from a planet-wide PMTiles file over HTTP range requests, city blocks are derived on the fly in a web worker, and the morph between sphere and plane happens in custom deck.gl shader layers.",
+            "There is no backend. Tiles come straight from PMTiles files over HTTP range requests, city blocks are derived on the fly in a web worker, and the morph between sphere and plane happens in custom deck.gl shader layers.",
+            "The live demo here runs on two small extracts of the Protomaps basemap hosted with this site: the whole planet at low zoom and Bogot&aacute; at full detail. Zoom into Bogot&aacute; and press &ldquo;Axonometr&iacute;a explotada&rdquo;. Outside Bogot&aacute; the map stays empty past zoom 5.",
             "No color and no building extrusion: one ink on paper, with hierarchy coming only from line weight and opacity. The vertical axis means &ldquo;belongs to this layer&rdquo; and nothing else.",
         ],
     ),
@@ -378,6 +379,13 @@ LEGACY_FIXES = {
         ("I'm the co-founder of Orbis Geoscripting, where we've spent the last three years teaching",
          "I co-founded Orbis Geoscripting, where between 2020 and 2024 we taught")],
     4: [("November 2019 - Present", "Since 2019")],
+    3: [("March 2020 - Present", "From March 2020 (now closed)"),
+        ("Introducing Orbis Shop, my entrepreneurial venture that has been going strong for the past three years. What sets Orbis Shop apart? It's where fashion meets cartography.",
+         "Orbis Shop was my first venture, opened in March 2020 and now closed. It was where fashion met cartography."),
+        ("Each T-shirt in our collection is more than just a piece of clothing; it's a fusion",
+         "Each T-shirt in the collection was more than just a piece of clothing; it was a fusion"),
+        ("And the best part? I've personally been behind every design, making use of powerful tools like Adobe Illustrator and Adobe Photoshop to bring my cartographic visions to life. Since our launch three years ago, we've been fortunate to have a growing base of satisfied customers. They're not just buying a T-shirt; they're buying into a unique concept that blends the complexity of mapping data with everyday style. With three fruitful years behind us, we're excited to continue pushing the boundaries of what fashion and cartography can be, one meticulously designed T-shirt at a time.",
+         "I made every design myself in Adobe Illustrator and Adobe Photoshop, turning cartographic data into prints. Over its life the shop built a loyal base of customers who were buying into a concept as much as a T-shirt: the complexity of mapping data worn as everyday style.")],
 }
 
 
