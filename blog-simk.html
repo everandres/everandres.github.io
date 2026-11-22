@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Ever Andrés Salazar Mercado">
+  <link rel="shortcut icon" href="favicon.png">
+  <meta name="description" content="How I designed and built SIMK, the Keraunos Meteorological Information System: cloud-native data architecture, GPU-rendered maps and an interface that explains itself.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/additions.css">
+
+  <title>SIMK: a weather system people can act on · Ever Salazar</title>
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="100">
+
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close">
+        <span class="icofont-close js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+  <nav class="site-nav dark mb-5 site-navbar-target">
+    <div class="container">
+      <div class="site-navigation">
+        <a href="index.html" class="logo m-0">Ever Andrés<span class="text-primary">.</span></a>
+        <ul class="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
+          <li><a href="index.html#home-section" class="nav-link">Home</a></li>
+          <li><a href="index.html#portfolio-section" class="nav-link">Work</a></li>
+          <li><a href="index.html#about-section" class="nav-link">About</a></li>
+          <li><a href="blog.html" class="nav-link">Writing</a></li>
+          <li><a href="index.html#contact-section" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block" data-toggle="collapse" data-target="#main-navbar">
+          <span></span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <article class="untree_co-section pb-0 post">
+    <div class="container">
+      <header class="post-header">
+        <p class="post-meta">November 22, 2026 &middot; Case study</p>
+        <h1 class="text-black">SIMK: a weather system people can act on</h1>
+        <p class="post-lede">At Keraunos I designed and built SIMK, the Keraunos Meteorological Information System, almost on my own: the data architecture underneath, the backend and the interface. This is how it is put together and why it looks the way it does.</p>
+      </header>
+
+      <figure class="post-figure wide">
+        <img src="media/simk-forecast.jpg" alt="SIMK showing the ECMWF temperature forecast over northern South America, with the side panel open and a quick guide explaining what temperature is useful for" class="img-fluid">
+        <figcaption>The forecast view: ECMWF temperature with animated wind. The card on the left explains what the layer is for, not only what it is.</figcaption>
+      </figure>
+
+      <div class="post-body">
+        <h2>What SIMK is for</h2>
+        <p>Keraunos detects lightning and turns it, together with weather forecasts, into risk information for power grids and other critical infrastructure. Its customer platform is Predicthor. SIMK is the internal system that sits next to it: the place where the company's leadership and engineers look at forecasts, satellite and station data, and where new weather products are tested before they reach Predicthor.</p>
+        <p>That role shaped two decisions. The data had to be stored in a way that could later move to the main platform without being rebuilt. And the interface had to be readable by people who are not meteorologists.</p>
+
+        <h2>The data underneath</h2>
+        <p>Weather data arrives as large gridded files: ECMWF, GFS and WRF forecasts in GRIB or NetCDF, GOES-19 satellite images, rain gauges from IDEAM's station network. I chose a cloud-native stack to hold and serve all of it:</p>
+        <ul>
+          <li><strong>Zarr datacubes</strong> for model forecasts, with one chunk layout for drawing a whole map at one time step and another for reading a long time series at one point. Each kind of request reads the few chunks it needs.</li>
+          <li><strong>A STAC catalog</strong> that says which run, variable and time step exists and where it lives, so the frontend never has to guess file names.</li>
+          <li><strong>Cloud-Optimized GeoTIFFs</strong> for satellite bands.</li>
+          <li><strong>A tile service</strong> on FastAPI and TiTiler that packs the physical value (degrees, millimetres, kelvin) into the pixels instead of a ready-made color.</li>
+        </ul>
+        <p>New runs are published next to the old ones and swapped in when they are complete, so a map never shows a half-written forecast.</p>
+        <p>I tried all of this in SIMK first. Once the rest of the development team saw it working, they adopted the same stack and conventions to migrate Predicthor's weather infrastructure. That migration was a team effort; the architecture and its conventions were the part I brought.</p>
+
+        <h2>Color happens in the browser</h2>
+        <p>Because the tiles carry real values, the map is drawn on the GPU. A forecast field is uploaded to WebGL as a single texture with linear filtering, and a small color table turns each value into a color. The same tile works for any palette, the field stays smooth when you zoom, and the wind is drawn on top as animated particles. Vector layers such as administrative boundaries come from PostGIS through Martin.</p>
+
+        <figure class="post-figure">
+          <img src="media/simk-satellite.jpg" alt="GOES-19 clean infrared band over Colombia, with cold cloud tops in red and green marking deep convective storms" class="img-fluid">
+          <figcaption>GOES-19 band 13 (clean infrared). The guide says it plainly: the coldest cloud tops mark deep convective storms, which is where lightning and heavy rain are most likely.</figcaption>
+        </figure>
+
+        <h2>An interface that explains itself</h2>
+        <p>The map takes the whole screen. A half-circle menu opens from the left with five sections: Forecast, Outlook, Satellite, Stations and Plan. Each section opens a narrow panel with only the controls it needs: source, run, variable, time.</p>
+        <p>The part I care about most is the <strong>quick guide</strong> on every layer. It is a short card in plain Spanish that says what the variable measures and what it is useful for in the field. Temperature helps plan field crews, anticipate the load on transmission conductors and estimate electricity demand. The infrared band shows where deep storms are. The guide can be dismissed once you know the layer, but it is there for anyone opening SIMK for the first time.</p>
+        <p>The data is only useful if the person looking at it knows what to do with it, so I treated these explanations as part of the product.</p>
+
+        <figure class="post-figure">
+          <img src="media/simk-stations.jpg" alt="Rainfall from about 560 IDEAM stations interpolated with inverse distance weighting over Colombia" class="img-fluid">
+          <figcaption>Stations: daily rainfall from IDEAM gauges, shown as points or interpolated into a continuous surface. The guide warns that the surface is reliable where the network is dense, in the Andes, and uncertain where stations are scarce, in the Amazon and the Orinoquía.</figcaption>
+        </figure>
+
+        <h2>What is in it</h2>
+        <ul>
+          <li><strong>Forecast:</strong> ECMWF, GFS and WRF, plus a precipitation ensemble that blends the three, with run, variable and time controls and animated wind.</li>
+          <li><strong>Outlook:</strong> IPCE, a monthly convective-potential index for Colombia on a roughly one-kilometre grid, in five categories, meant for planning maintenance months ahead rather than for hour-by-hour forecasting.</li>
+          <li><strong>Satellite:</strong> GOES-19 bands with the time of the latest image.</li>
+          <li><strong>Stations:</strong> IDEAM rain gauges as points or as an interpolated surface over 1, 7, 30 or 90 days, with each station's history and a CSV download.</li>
+          <li><strong>Plan:</strong> the two-year plan for the meteorology area.</li>
+        </ul>
+        <p>Behind it there is a LoopBack 4 backend, the tile services, Martin for vector tiles and TimescaleDB, all running in Docker behind Nginx.</p>
+
+        <h2>A plan drawn as a metro map</h2>
+        <p>I also wrote the two-year plan for the meteorology area, and the company adopted it as its roadmap. A document alone hides how the pieces depend on each other, so I drew it as a metro map: one line for SIMK and one for Predicthor, converging at the point where SIMK's products start moving into the main platform. Finished stations are solid, pending ones are outlined, and the work without dates yet is dashed. Two bands run in parallel: new technology that may arrive at any moment, and urgent projects that cannot be scheduled, for which capacity is reserved.</p>
+
+        <figure class="post-figure wide">
+          <img src="media/simk-plan.jpg" alt="The meteorology plan drawn as a metro map, with an orange SIMK line and a dark blue Predicthor line converging into a shared line" class="img-fluid">
+          <figcaption>The plan, as a metro map. Each station opens its detail; the same plan is also available as a document, a table and slides.</figcaption>
+        </figure>
+
+        <h2>What I would change</h2>
+        <p>The base map is a warm orange, and the temperature and outlook palettes also use oranges and yellows, so at some zoom levels it is hard to tell where the data ends and the background begins. When several layers are on at once, the panel does not make it obvious which one you are looking at. And the guides, which are the best part, are dense for a narrow panel. Those are the next things I would fix.</p>
+
+        <h2>Stack</h2>
+        <p class="post-stack">Python, xarray, Zarr, STAC, COG, FastAPI, TiTiler, Next.js, MapLibre, WebGL, LoopBack 4 (TypeScript), PostGIS, Martin, TimescaleDB, Docker, Nginx</p>
+
+        <p class="post-note">Screenshots published with permission from Keraunos. Customer assets are hidden.</p>
+        <p><a href="blog.html">&larr; All writing</a> &middot; <a href="portfolio-single-6.html">My work at Keraunos</a></p>
+      </div>
+    </div>
+  </article>
+
+  <div class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="widget">
+            <h3>Connect</h3>
+            <ul class="list-unstyled social">
+              <li><a href="https://www.linkedin.com/in/ever-salazar/" aria-label="LinkedIn"><span class="icon-linkedin"></span></a></li>
+              <li><a href="https://github.com/everandres" aria-label="GitHub"><span class="icon-github"></span></a></li>
+              <li><a href="mailto:andressalmercado@gmail.com" aria-label="Email"><span class="icon-envelope"></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 text-center">
+          <p class="mb-0">&copy; 2026 Ever Andrés Salazar Mercado &mdash; Template &ldquo;Minimal&rdquo; by <a href="https://untree.co">Untree.co</a> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/wave-animate.js"></script>
+  <script src="js/circle-progress.js"></script>
+  <script src="js/imagesloaded.pkgd.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/TweenMax.min.js"></script>
+  <script src="js/ScrollMagic.min.js"></script>
+  <script src="js/scrollmagic.animation.gsap.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
