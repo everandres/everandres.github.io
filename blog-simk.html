@@ -101,12 +101,21 @@
           <figcaption>Stations: daily rainfall from IDEAM gauges, shown as points or interpolated into a continuous surface. The guide warns that the surface is reliable where the network is dense, in the Andes, and uncertain where stations are scarce, in the Amazon and the Orinoquía.</figcaption>
         </figure>
 
+        <h2>A calendar for the whole country</h2>
+        <p>The clock in the top-right corner is also a door. Clicking it opens the <em>calendograma</em>: the current month as a grid of days, each colored by how much rain fell across the country that day, from green for the driest days to red for the wettest. The scale is relative to the visible month, so a single glance shows which days stood out, and hovering a day gives the exact amount. It answers a question people ask constantly, "how bad was it this week?", without opening a single layer.</p>
+
+        <figure class="post-figure narrow">
+          <img src="media/simk-calendar.jpg" alt="The calendograma: November 2026 as a grid of days colored from green to red by national accumulated rainfall" class="img-fluid">
+          <figcaption>The calendograma for November 2026. November 6 was the wettest day of the month so far.</figcaption>
+        </figure>
+
         <h2>What is in it</h2>
         <ul>
           <li><strong>Forecast:</strong> ECMWF, GFS and WRF, plus a precipitation ensemble that blends the three, with run, variable and time controls and animated wind.</li>
           <li><strong>Outlook:</strong> IPCE, a monthly convective-potential index for Colombia on a roughly one-kilometre grid, in five categories, meant for planning maintenance months ahead rather than for hour-by-hour forecasting.</li>
           <li><strong>Satellite:</strong> GOES-19 bands with the time of the latest image.</li>
           <li><strong>Stations:</strong> IDEAM rain gauges as points or as an interpolated surface over 1, 7, 30 or 90 days, with each station's history and a CSV download.</li>
+          <li><strong>Calendar:</strong> daily national rainfall for the month, behind the clock.</li>
           <li><strong>Plan:</strong> the two-year plan for the meteorology area.</li>
         </ul>
         <p>Behind it there is a LoopBack 4 backend, the tile services, Martin for vector tiles and TimescaleDB, all running in Docker behind Nginx.</p>
